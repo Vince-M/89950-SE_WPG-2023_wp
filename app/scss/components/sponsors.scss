@@ -1,0 +1,227 @@
+@use "../util" as *;
+
+.sponsors {
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--darkGreen);
+    padding: rem(20) rem(10);
+    color: var(--white);
+    margin-bottom: rem(60);
+
+    h2 {
+      font-size: rem(48);
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: rem(42);
+      margin-bottom: 0;
+      color: var(--darkGreen);
+    }
+
+  }
+
+  h3.sponsors__head {
+    font-size: rem(42);
+    color: var(--darkGreen);
+    margin-bottom: 0;
+    text-align: center;;
+  }
+
+  &__conference {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    // gap: 10px;
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+
+      @include breakpoint-down(small) {
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+    }
+
+    &--half-width {
+      display: flex;
+      flex-direction: row;
+      border: rem(1) solid var(--nwcGreen);
+      gap: rem(10);
+      width: 49%;
+      height: rem(200);
+      padding: rem(20) rem(10);
+      margin-bottom: rem(10);
+      background-color: var(--white);
+
+      &:hover {
+        box-shadow: 0 3px 10px var(--nwcGreen);
+        transition: all 250ms ease-in-out;
+      }
+
+      @include breakpoint-down(medium) {
+        width: 100%;
+      }
+
+      @include breakpoint-down(small) {
+        height: auto;
+      }
+
+      img.sponsor-logo {
+        width: rem(250);
+
+        @include breakpoint-down(small) {
+          width: 100%;
+        }
+      }
+
+      h2.sponsor-head {
+        font-family: var(--font-display);
+        font-size: rem(26);
+        color: var(--nwcGreen);
+
+        @include breakpoint-down(small) {
+          font-size: rem(36);
+          text-align: center;
+          margin-top: rem(20);
+        }
+      }
+
+      @include breakpoint-down(small) {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+
+    &--norwester,
+    &--furtrader,
+    &__mealSponsors {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: rem(16);
+      border-bottom: rem(1) solid var(--darkGreen);
+      padding-bottom: rem(20);
+      margin-bottom: rem(20);
+    }
+  }
+
+  &__norWester,
+  &__furTrader,
+  &__mealSponsors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(20);
+    text-align: center;
+    padding: rem(20) 0;
+
+    &--logos img {
+      width: 100%;
+    }
+  }
+
+  &__norWester,
+  &__furTrader,
+  &__mealSponsors {
+    flex-wrap: wrap;
+    margin-bottom: rem(40);
+
+    &--logos {
+      flex: 15%;
+      filter: grayscale(0%);
+
+      @include breakpoint-down(medium) {
+        flex: 20%;
+      }
+
+      @include breakpoint-down(small) {
+        flex: 45%;
+      }
+    }
+  }
+
+  a img:hover {
+    filter: grayscale(100%);
+  }
+
+  &__norWester,
+  &__furTrader {
+    flex-wrap: wrap;
+    gap: rem(40);
+
+    @include breakpoint-down(medium) {
+      // margin-top: rem(20);
+      margin-bottom: rem(40);
+      border-bottom: 1px solid var(--darkGreen);
+    }
+
+    &--logos {
+      flex: 10%;
+
+      @include breakpoint-down(medium) {
+        flex: 20%;
+      }
+
+      @include breakpoint-down(small) {
+        flex: 40%;
+      }
+    }
+  }
+
+  &__mealSponsors {
+    flex-wrap: wrap;
+    gap: rem(32);
+
+    @include breakpoint-down(medium) {
+      margin-top: rem(20);
+      margin-bottom: rem(20);
+    }
+
+    &--logos {
+      flex: 5%;
+
+      @include breakpoint-down(medium) {
+        flex: 20%;
+      }
+
+      @include breakpoint-down(small) {
+        flex: 35%;
+      }
+    }
+  }
+  
+  &__url {
+    font-family: var(--font-header);
+    color: var(--darkGreen);
+  }
+
+}
+
+.unilever-logo {
+  @include breakpoint-down(small) {
+    width: 40%;
+  }
+}
+
+.sponsorBannerFull {
+  margin-bottom: rem(60);
+}

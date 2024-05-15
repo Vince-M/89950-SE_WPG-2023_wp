@@ -1,0 +1,40 @@
+@use '../util' as *;
+
+.wrapper {
+  width: min(100% - rem(40), rem(1200));
+  margin-inline: auto;
+}
+
+.text {
+
+  &__container {
+    width: min(100% - rem(40), rem(740));
+    margin-inline: auto;
+  }
+}
+
+.inner-container {
+  width: 80%;
+  // max-width: 1200px;
+  position: relative;
+  // padding: 1.875rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-down(small) {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 75rem;
+  width: 80%;
+  
+  &__content {
+    margin-bottom: rem(60);
+
+  }
+}

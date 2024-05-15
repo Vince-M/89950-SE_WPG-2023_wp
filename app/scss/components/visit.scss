@@ -1,0 +1,130 @@
+@use '../util' as *;
+
+.fullWidth {
+
+  &__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: rem(60);
+
+    @include breakpoint-down(small) {
+      display: block;
+      height: 100%;
+      overflow: visible;
+      position: relative;
+    }
+
+    &--hotelBKGD {
+      background-color: var(--darkGreen);
+    }
+
+    &--comfortBKGD {
+      background-color: var(--darkBlue);
+    }
+
+    &--camps, 
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+
+    &--innerWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      @include breakpoint-down(small) {
+        padding-top: rem(30);
+      }
+    }
+
+    &--text {
+      width: 80%;
+      text-align: left;
+      margin-left: rem(30);
+
+      @include breakpoint-down(small) {
+        width: 100%;
+        margin-left: 0;
+      }
+
+
+    }
+
+    &--img {
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex: 1;
+      height: rem(500);
+      width: 50%;
+
+      @include breakpoint-down(small) {
+        height: rem(300);
+        width: 100%;
+      }
+    }
+
+    &--hotel {
+      background-image: url('../img/hotel_entrance_2400x650.jpg');
+    }
+
+    &--comfort {
+      background-image: url('../img/hotel_banquet_2400x650.jpg');
+    }
+
+    &--restaurant {
+      background-image: url('../img/hotel_restaurant_2400x650.jpg');
+    }
+  }
+}
+
+.hotel,
+.comfort {
+  color: var(--white);
+}
+
+.fullWidth__section--textOuter {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fullWidth__section--textRight {
+  justify-content: flex-end;
+}
+
+.menus a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.stay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: rem(40);
+}
+
+.stay h2 {
+  font-family: var(--font-header);
+  color: var(--darkGreen);
+  font-size: rem(48);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: rem(40);
+
+  @include breakpoint-down(small) {
+    font-size: rem(32);
+  }
+}

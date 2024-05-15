@@ -1,0 +1,49 @@
+@use '../util' as *;
+
+.btn {
+  cursor: pointer;
+  font-family: var(--font-header);
+  font-size: rem(20);
+  font-weight: 500;
+  line-height: rem(22);
+  padding: rem(9) rem(24);
+  border-radius: rem(5);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  white-space: nowrap;
+
+  &__contact a {
+    background: linear-gradient(var(--yellow) 0 5%, var(--black));
+    // background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    color: var(--white);
+    margin-left: rem(20);
+    text-decoration: none;
+
+    @include breakpoint-down(small) {
+      margin-left: 0;
+    }
+  }
+
+  &__contact a:hover {
+    background: linear-gradient(var(--lightGreen) 0 5%, var(--black));
+    border: 1px solid var(--lightGreen);
+    transition: color 300ms ease-in-out;
+  }
+
+  &__moreInfo a {
+    background: linear-gradient(var(--white) 0 30%, var(--black));
+    // background-color: var(--yellow);
+    border: 1px solid var(--white);
+    color: var(--darkGreen);
+  }
+
+  &__moreInfo a:hover {
+    background: linear-gradient(var(--yellow) 0 60%, var(--black));
+    border: 1px solid var(--white);
+    transition: color 200ms ease-in-out;
+    text-decoration: none;
+    margin-left: 0;
+  }
+}

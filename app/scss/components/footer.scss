@@ -1,0 +1,176 @@
+@use "../util" as *;
+
+.footer {
+  background-color: var(--darkGreen);
+  display: flex;
+  padding-top: rem(45);
+  padding-bottom: rem(20);
+
+  .container {
+    @include breakpoint-down(medium) {
+      width: 100%;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    // &--login {
+    //   margin-left: rem(30);
+    // }
+
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+
+    @include breakpoint-down(small) {
+      &--conference,
+      &--tradeshow,
+      &--featureItems,
+      &--pharmacy,
+      &--storeawards,
+      &--contact {
+        width: 50%;
+        margin-bottom: rem(30);
+      }
+
+      &--login {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
+    ul {
+      margin-top: 0;
+      padding-left: 0;
+      font-size: rem(16);
+
+      li {
+        list-style: none;
+        margin-top: rem(8);
+      }
+    }
+  }
+
+  &__logo {
+    img {
+      width: rem(175);
+      height: rem(85);
+      margin-right: rem(40);
+    }
+
+    @include breakpoint-down(medium) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__menu {
+    font-family: var(--font-header);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 2;
+    gap: rem(40);
+    align-items: flex-start;
+    margin-bottom: rem(20);
+
+    @include breakpoint-down(small) {
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    a {
+      color: var(--white);
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    &--head {
+      font-weight: 700;
+      color: var(--white);
+      font-size: rem(18);
+      margin-bottom: 0;
+    }
+  }
+
+  &__media {
+    font-family: var(--font-header);
+    font-size: rem(16);
+    font-weight: 500;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: rem(1) solid var(--white);
+    padding-top: rem(20);
+
+    @include breakpoint-down(small) {
+      flex-direction: column;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    &--links {
+      font-size: rem(16);
+      @include breakpoint-down(small) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: rem(10);
+      }
+    }
+
+    &--links a {
+      margin-right: rem(20);
+
+      @include breakpoint-down(small) {
+        margin-right: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    a {
+      color: var(--white);
+      @include breakpoint-down(small) {
+        margin-top: rem(20);
+      }
+
+      a:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &--social {
+      @include breakpoint-down(small) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: rem(20);
+      }
+    }
+
+    &--social > a.twitter {
+      margin-left: rem(20);
+    }
+  }
+}

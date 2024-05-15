@@ -1,0 +1,120 @@
+@use '../util' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+  color: var(--font-body);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a[aria-current="true"] {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--black);
+  line-height: 1.4;
+  background-color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+
+  &__concert {
+    align-items: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: rem(-90) 0 rem(40);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+
+    &--head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @include breakpoint-down(small) {
+        padding: 0 rem(20);
+      }
+    }
+
+    &--logo {
+      margin-bottom: rem(40);
+    }
+
+    &--support {
+      position: absolute;
+      bottom: rem(20);
+    }
+  }
+}
+
+.breadcrumbs {
+  margin: rem(16) 0 rem(40);
+}
+
+.breadcrumb {
+  font-family: var(--font-header);
+  font-size: rem(14);
+  font-weight: 500;
+  color: var(--lightGrey);
+
+  &__current {
+    font-weight: 700;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  left:     -10000px;
+  top:      auto;
+  width:    1px;
+  height:   1px;
+  overflow: hidden;
+
+  &:focus {
+    left: 0;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 1px solid;
+  }
+}
+
+hr {
+  color: var(--darkGreen);
+  background-color: var(--darkGreen);
+  height: rem(2);
+  margin-bottom: rem(60);
+}
