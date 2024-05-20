@@ -54,34 +54,15 @@
         <!-- header menu -->
         <div class="header__nav hide-for-mobile">
           <div class="header__menu">
-            <ul class="menu nav__list">
-              <li class="nav__item has-submenu">
-                <a tabindex="0">Programs &#8964;</a>
-                <ul class="submenu">
-                  <li class="subitem"><a href="#">Conference Schedule</a></li>
-                  <li class="subitem"><a href="victoria.html">Pharmacy Schedule</a></li>
-                  <li class="subitem"><a href="concert.html">WPG Concert Series</a></li>
-                </ul>
-              </li>
 
-              <li class="nav__item has-submenu">
-                <a tabindex="0">Plan your Visit &#8964;</a>
-                <ul class="submenu">
-                  <li class="subitem"><a href="victoria.html">Victoria Inn</a></li>
-                  <li class="subitem"><a href="city.html">In the City</a></li>
-                </ul>
-              </li>
-
-              <li class="nav__item has-submenu">
-                <a tabindex="0">Trade Show &#8964;</a>
-                <ul class="submenu">
-                  <li class="subitem"><a href="sponsors.html">Sponsors</a></li>
-                  <li class="subitem"><a href="#">Vendors</a></li>
-                  <li class="subitem"><a href="#">Trade Show Rotations</a></li>
-                </ul>
-              </li>
-
-            </ul>
+            <?php
+              wp_nav_menu( array(
+                'theme_location'  =>  'header-menu',
+                'depth'           =>  3,
+                'container'       =>  false,
+                'menu_class'      =>  'menu nav__list'
+              ))
+            ?>
             <!-- contact button -->
             <div class="btn btn__contact nav__link">
               <a class="btn btn__contact nav__link" href="contact.html">Contact</a>
