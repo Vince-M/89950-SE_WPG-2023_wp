@@ -38,13 +38,20 @@
     <div class="wrapper header__section">
       <nav class="nav" role="navigation" aria-label="Main">
         
+        <!-- header__logo start -->
         <div class="header__logo site-branding">
-          <a href="index.html">
-            <img src="img/head-logo.svg" alt="WPG logo 2024" width="140">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+              <?php if( has_custom_logo() ): ?>
+                  <?php the_custom_logo(); ?>
+                  <?php else: ?>
+                      <h3 class="site-title"><?php bloginfo( 'title' ); ?></h3>
+                      <span><?php bloginfo( 'description' ); ?></span>
+              <?php endif; ?>
           </a>
         </div>
-        <!-- header__logo -->
+        <!-- header__logo end -->
 
+        <!-- hamburger menu -->
         <a id="btnHamburger" class="hamburger header__toggle hide-for-desktop" href="#">
           <span></span>
           <span></span>
@@ -53,8 +60,9 @@
 
         <!-- header menu -->
         <div class="header__nav hide-for-mobile">
-          <div class="header__menu">
+          <div class="nav navbar header__menu" role="navigation">
 
+          
             <?php
               wp_nav_menu( array(
                 'theme_location'  =>  'header-menu',
