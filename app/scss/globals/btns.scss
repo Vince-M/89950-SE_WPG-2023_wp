@@ -17,8 +17,8 @@
     background: linear-gradient(var(--yellow) 0 5%, var(--black));
     // background-color: var(--yellow);
     border: 1px solid var(--yellow);
-    color: var(--white);
-    margin-left: rem(20);
+    color: var(--white);;
+    // margin-left: rem(20);
     text-decoration: none;
 
     @include breakpoint-down(small) {

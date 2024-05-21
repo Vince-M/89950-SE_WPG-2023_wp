@@ -131,9 +131,9 @@
   }
 }
 
-.admin-bar .header {
-  margin-top: rem(30);
-}
+// .admin-bar .header {
+//   margin-top: rem(30);
+// }
 
 .head {
   @include breakpoint-down(medium) {
@@ -183,17 +183,23 @@
 
 
         @include breakpoint(medium) {
-          width: 100%;
           opacity: 1;
           visibility: visible;
           display: flex;
           flex-direction: column;
-
-          width: rem(192);
+          width: rem(240);
         }
       }
     }
   }
+
+  // .nav__item a::after {
+  //   content: ">";
+  //   position: absolute;
+  //   left: 1px;
+  //   top: 0;
+
+  // }
 
   &__list,
   &__item {
