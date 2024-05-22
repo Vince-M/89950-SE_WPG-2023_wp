@@ -41,12 +41,8 @@
         <!-- header__logo start -->
         <div class="header__logo site-branding">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-              <?php if( has_custom_logo() ): ?>
-                  <?php the_custom_logo(); ?>
-                  <?php else: ?>
-                      <h3 class="site-title"><?php bloginfo( 'title' ); ?></h3>
-                      <span><?php bloginfo( 'description' ); ?></span>
-              <?php endif; ?>
+          <img src="<?php echo get_theme_file_uri(); ?>/img/head-logo.svg" alt="Wintering Partners Gathering 2024" width="140">
+
           </a>
         </div>
         <!-- header__logo end -->
