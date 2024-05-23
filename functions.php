@@ -43,9 +43,11 @@ function wpg_theme_menus() {
 
   register_nav_menus(
     array(
-      'header-menu'  =>  'Header Menu',
-      'footer-menu'  =>  'Footer Menu',
-    )
+      'header-menu'            =>  'Header Menu',
+      'wpg-footer-programs'    =>  'Footer Program Menu',
+      'wpg-footer-visit'       =>  'Footer Visit Menu',
+      'wpg-footer-tradeshow'  =>   'Footer Trade Show Menu'
+      )
     );
 }
 

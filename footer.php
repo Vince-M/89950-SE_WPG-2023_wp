@@ -4,36 +4,44 @@
     <div class="wrapper row">
       <div class="footer__nav">
         <div class="footer__logo">
-          <a href="index.html">
-            <img src="img/head-logo.svg" alt="WPG_logo">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+            <img src="<?php echo get_theme_file_uri() ?>/img/wpg_footer-logo_175x75.svg" alt="WPG_logo">
           </a>
         </div>
 
         <div class="footer__menu">
           <div class="footer__nav--item footer__nav--conference">
             <h4 class="footer__menu--head">Programs</h4>
-            <ul title="Conference">
-              <li><a href="schedule.html">Conference Schedule</a></li>
-              <li><a href="victoria.html">Pharmacy Schedule</a></li>
-              <li><a href="city.html">WPG Concert Series</a></li>
-            </ul>
+              <?php
+                wp_nav_menu( array(
+                  'theme_location'  =>  'wpg-footer-programs',
+                  'depth'           =>  3,
+                  'container'       =>  false
+                ))
+              ?>
+
+          </div>
+
+          <div class="footer__nav--item footer__nav--visit">
+            <h4 class="footer__menu--head">Plan your Visit</h4>
+              <?php
+                wp_nav_menu( array(
+                  'theme_location'  =>  'wpg-footer-visit',
+                  'depth'           =>  2,
+                  'container'       =>  false
+                ))
+              ?>
           </div>
 
           <div class="footer__nav--item footer__nav--tradeshow">
-            <h4 class="footer__menu--head">Plan your Visit</h4>
-            <ul title="Tradeshow">
-              <li><a href="victoria.html#">Victoria Inn</a></li>
-              <li><a href="vendors.html">In the City</a></li>
-            </ul>
-          </div>
-
-          <div class="footer__nav--item footer__nav--featureItems">
             <h4 class="footer__menu--head">Trade Show</h4>
-            <ul title="Feature Items">
-              <li><a href="sponsors.html">Sponsors</a></li>
-              <li><a href="#">Vendors</a></li>
-              <li><a href="#">Trade Show Rotations</a></li>
-            </ul>
+              <?php
+                wp_nav_menu( array(
+                  'theme_location'  =>  'wpg-footer-tradeshow',
+                  'depth'           =>  4,
+                  'container'       =>  false
+                ))
+              ?>
           </div>
 
             <!-- contact button -->
@@ -47,12 +55,12 @@
       <!-- footer__nav -->
       <div class="footer__media">
         <div class="footer__media--copy">
-          <p>Copyright &copy; 2024 NWC Wintering Partners Gathering. All rights reserved.</p>
+          <p>Copyright &copy; <?php echo date( 'Y' ); ?> NWC Wintering Partners Gathering. All rights reserved.</p>
         </div>
         <div class="footer__media--links">
-          <a href="#">Legal / Privacy</a>
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Contact</a>
+          <a href="https://www.northwest.ca/legal-privacy" target="_blank">Legal / Privacy</a>
+          <a href="https://www.northwest.ca/terms-and-conditions" target="_blank">Terms & Conditions</a>
+          <a href="https://www.northwest.ca/contact-us" target="_blank">Contact</a>
         </div>
       </div>
     </div>

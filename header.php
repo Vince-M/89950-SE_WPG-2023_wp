@@ -41,8 +41,7 @@
         <!-- header__logo start -->
         <div class="header__logo site-branding">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-          <img src="<?php echo get_theme_file_uri(); ?>/img/head-logo.svg" alt="Wintering Partners Gathering 2024" width="140">
-
+            <img src="<?php echo get_theme_file_uri(); ?>/img/head-logo.svg" alt="Wintering Partners Gathering 2024" width="140">
           </a>
         </div>
         <!-- header__logo end -->
