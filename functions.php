@@ -4,7 +4,7 @@ function wpg_files() {
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap', [], null);
   wp_enqueue_style('wpg_main_styles', get_theme_file_uri('main.css'));
   wp_enqueue_style('wpg_styles', get_theme_file_uri('style.css'));
-  wp_enqueue_script('wpg_script_js', get_stylesheet_directory_uri() . '/dist/script.js', NULL, '1.0', true);
+  wp_enqueue_script('wpg_script_js', get_stylesheet_directory_uri() . '/dist/script.js', NULL, '1.0', false);
 }
 
 add_action('wp_enqueue_scripts', 'wpg_files');
@@ -52,3 +52,22 @@ function wpg_theme_menus() {
 }
 
 add_action( 'init', 'wpg_theme_menus' );
+
+function pageBanner() {
+  // php logic will live here
+  ?>
+    <div class="page-banner">
+      <div class="page-banner__bg-image" style="background-image: url(<?php the_field( 'hero_page' ); ?>)"></div>
+    </div>
+  <?php 
+}
+
+
+
+function defer_parsing_of_js( $url ) {
+  if ( is_user_logged_in() ) return $url; //don't break WP Admin
+  if ( FALSE === strpos( $url, '.js' ) ) return $url;
+  if ( strpos( $url, 'jquery.js' ) ) return $url;
+  return str_replace( ' src', ' defer src', $url );
+}
+add_filter( 'script_loader_tag', 'defer_parsing_of_js', 10 );

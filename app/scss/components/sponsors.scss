@@ -61,7 +61,7 @@
     &--half-width {
       display: flex;
       flex-direction: row;
-      border: rem(1) solid var(--nwcGreen);
+      border: rem(1) solid var(--darkGreen);
       gap: rem(10);
       width: 49%;
       height: rem(200);
@@ -84,6 +84,7 @@
 
       img.sponsor-logo {
         width: rem(250);
+        object-fit: contain;
 
         @include breakpoint-down(small) {
           width: 100%;

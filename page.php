@@ -7,8 +7,8 @@
       <!-- HERO
       =================================================== -->
       <div class="hero__pages" role="banner" data-type="background" data-speed="2">
-        <div class="hero__image" style="background: url(<?php the_field( 'hero_image' ); ?>) no-repeat;background-position: center; background-size: cover; left: 50%; padding: 0; position: relative; -webkit-transform: translateX(-50%); transform: translateX(-50%);margin-top: 0; margin-bottom: 0px; height: 450px">
-        </div>
+        <?php pageBanner(); ?>
+      </div>
         <div class="wrapper hero__index">
           <div class="hero__indexContent">
             <div class="hero__content">
