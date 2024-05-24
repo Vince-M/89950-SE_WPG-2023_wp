@@ -30,13 +30,16 @@
 
       <!-- INTRO
       =================================================== -->
+      <div class="wrapper containter__content row">
+        <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+              <?php if(function_exists('bcn_display'))
+              {
+                  bcn_display();
+              }?>
+          </div>
+      </div>
+
       <section class="wrapper text__container intro">
-      <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-            <?php if(function_exists('bcn_display'))
-            {
-                bcn_display();
-            }?>
-        </div>
    
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
 
@@ -47,6 +50,7 @@
           <p>Sorry, no pages found</p>
 
           <?php endif; ?>
+          
       </section>
       <!-- ============================================== -->
 

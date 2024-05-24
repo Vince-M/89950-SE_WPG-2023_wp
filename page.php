@@ -30,6 +30,15 @@
 
       <!-- INTRO
       =================================================== -->
+      <div class="wrapper containter__content row">
+        <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+              <?php if(function_exists('bcn_display'))
+              {
+                  bcn_display();
+              }?>
+          </div>
+      </div>
+
       <section class="wrapper text__container intro">
         <h1>The North West Company Conference & Trade Show</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -42,15 +51,15 @@
         <h2 class="visually-hidden">Conference Tracks</h2>
         <div>
           <img class="conference" src="img/conference-column-min.jpg" alt="conference" width="390">
-          <a class="track_link" href="#">Conference &rarr;</a>
+          <a class="track_link" href="<?php echo site_url( '/programs/conference-schedule' ); ?>">Conference &rarr;</a>
         </div>
         <div>
           <img class="pharmacy" src="img/pharmacy-column-min.jpg" alt="pharmacy" width="390">
-          <a class="track_link" href="#">Pharmacy &rarr;</a>
+          <a class="track_link" href="<?php echo site_url( '/pharmacy-schedule' ); ?>">Pharmacy &rarr;</a>
         </div>
         <div>
           <img class="trade-show" src="img/trade_show-column-min.jpg" alt="trade-show" width="390">
-          <a class="track_link" href="#">Trade Show Rotations &rarr;</a>
+          <a class="track_link" href="<?php echo site_url( '/wpg-concert-series' ); ?>">Trade Show Rotations &rarr;</a>
         </div>
       </section>
       <!-- ============================================== -->

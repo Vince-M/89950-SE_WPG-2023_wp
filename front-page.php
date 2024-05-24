@@ -31,8 +31,17 @@
       <!-- INTRO
       =================================================== -->
       <section class="wrapper text__container intro">
-        <h1>The North West Company Conference & Trade Show</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+
+        <?php the_content(); ?>
+
+        <?php endwhile; else: ?>
+
+        <p>Sorry, no pages found</p>
+
+        <?php endif; ?>
+
       </section>
       <!-- ============================================== -->
 
@@ -41,16 +50,16 @@
       <section class="wrapper conf_tracks">
         <h2 class="visually-hidden">Conference Tracks</h2>
         <div>
-          <img class="conference" src="img/conference-column-min.jpg" alt="conference" width="390">
-          <a class="track_link" href="#">Conference &rarr;</a>
+          <img class="conference" src="<?php echo get_theme_file_uri() ?>/img/conference-column.jpg" alt="conference" width="390">
+          <a class="track_link" href="<?php echo site_url( '/conference-schedule' ); ?>">Conference &rarr;</a>
         </div>
         <div>
-          <img class="pharmacy" src="img/pharmacy-column-min.jpg" alt="pharmacy" width="390">
-          <a class="track_link" href="#">Pharmacy &rarr;</a>
+          <img class="pharmacy" src="<?php echo get_theme_file_uri() ?>/img/pharmacy-column.jpg" alt="pharmacy" width="390">
+          <a class="track_link" href="<?php echo site_url( '/pharmacy-schedule' ); ?>">Pharmacy &rarr;</a>
         </div>
         <div>
-          <img class="trade-show" src="img/trade_show-column-min.jpg" alt="trade-show" width="390">
-          <a class="track_link" href="#">Trade Show Rotations &rarr;</a>
+          <img class="trade-show" src="<?php echo get_theme_file_uri() ?>/img/trade_show-column.jpg" alt="trade-show" width="390">
+          <a class="track_link" href="<?php echo site_url( '/wpg-concert-series' ); ?>">Trade Show Rotations &rarr;</a>
         </div>
       </section>
       <!-- ============================================== -->
@@ -67,20 +76,35 @@
       <section class="wrapper concert-index">
         <h2 class="visually-hidden">NWC Concert Series</h2>
         <div class="doyle-index">
-          <img src="img/AlanDoyle_Concert_index_1000x1237.jpg" alt="Alan Doyle" width="490">
+          <!-- <img src="<?php echo get_theme_file_uri() ?>/img/AlanDoyle_Concert_index_1000x1237.jpg" alt="Alan Doyle" width="490"> -->
+          <?php 
+              $image = get_field('concert_photo');
+              if( !empty( $image ) ): ?>
+                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+            <?php endif; ?>
         </div>
         <div class="index-info">
           <div class="concert-logo">
-            <img src="img/concert_series_white.svg" alt="Concert Series" width="200">
+            <img src="<?php echo get_theme_file_uri() ?>/img/concert_series_white.svg" alt="Concert Series" width="200">
           </div>
           <div class="concert-name">
-            <img src="img/alan_doyle_type.svg" alt="Alan Doyle" width="525">
+            <!-- <img src="img/alan_doyle_type.svg" alt="Alan Doyle" width="525"> -->
+            <?php 
+              $image = get_field('artist_logo');
+              if( !empty( $image ) ): ?>
+                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="525" />
+            <?php endif; ?>
           </div>
           <div class="concert-date">
-            <img src="img/concert_date.svg" alt="Concert Date" width="240">
+            <!-- <img src="img/concert_date.svg" alt="Concert Date" width="240"> -->
+            <?php 
+              $image = get_field('concert_date');
+              if( !empty( $image ) ): ?>
+                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="240" />
+            <?php endif; ?>
           </div>
           <div class="concert-support">
-            <img src="img/concert-support.svg" alt="Support HHF" width="140">
+            <img src="<?php echo get_theme_file_uri() ?>/img/concert-support.svg" alt="Support HHF" width="140">
           </div>
           <div class="btn btn__moreInfo nav__link">
             <a class="btn btn__moreInfo nav__link" href="#">More Info</a>
