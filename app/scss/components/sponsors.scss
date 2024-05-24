@@ -136,7 +136,8 @@
     padding: rem(20) 0;
 
     &--logos img {
-      width: 100%;
+      // width: 100%;
+      max-width: 100%;
     }
   }
 
@@ -147,6 +148,8 @@
     margin-bottom: rem(40);
 
     &--logos {
+      display: flex;
+      justify-content: center;
       flex: 15%;
       filter: grayscale(0%);
 
@@ -176,7 +179,7 @@
     }
 
     &--logos {
-      flex: 10%;
+      // flex: 10%;
 
       @include breakpoint-down(medium) {
         flex: 20%;
