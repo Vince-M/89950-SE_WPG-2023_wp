@@ -12,8 +12,24 @@
 
         <div class="hero__concert--head">
           <img class="hero__concert--logo" src="<?php echo get_theme_file_uri() ?>/img/concert-series-logo_430x157.svg" width="430" alt="NWC Concert Series">
-          
-          <img class="hero__concert--name"  src="img/concert-name_575x150.svg" width="575" alt="Alan Doyle">
+
+          <div class="concert__name">
+            <?php 
+              $image = get_field('concert_name');
+              if( !empty( $image ) ): ?>
+                  <img  src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="571" >
+            <?php endif; ?>
+          </div>
+
+          <div class="hero__concert--support">
+            <?php 
+              $image = get_field('concert_support');
+              if( !empty( $image ) ): ?>
+                  <img  src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="200" >
+            <?php endif; ?>
+          </div>
+
+          <!-- <img class="hero__concert--name"  src="img/concert-name_575x150.svg" width="575" alt="Alan Doyle"> -->
         </div>
 
         <div class="hero__concert--support">
@@ -24,7 +40,7 @@
     </section> <!-- hero feature -->
       <!-- ============================================== -->
 
-      <!-- INTRO
+      <!-- BREADCRUMBS
       =================================================== -->
       <div class="wrapper containter__content row">
         <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">

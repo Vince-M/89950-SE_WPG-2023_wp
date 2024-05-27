@@ -107,7 +107,7 @@
             <img src="<?php echo get_theme_file_uri() ?>/img/concert-support.svg" alt="Support HHF" width="140">
           </div>
           <div class="btn btn__moreInfo nav__link">
-            <a class="btn btn__moreInfo nav__link" href="#">More Info</a>
+            <a class="btn btn__moreInfo nav__link" href="<?php echo site_url( '/wpg-concert-series' ); ?>">More Info</a>
           </div>
         </div>
       </section>

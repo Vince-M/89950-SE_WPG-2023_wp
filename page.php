@@ -39,7 +39,7 @@
           </div>
       </div>
 
-      <section class="wrapper text__container intro">
+      <section class="wrapper pages__content">
    
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
 
@@ -63,29 +63,7 @@
 
       <!-- CONCERT SERIES
       =================================================== -->
-      <section class="wrapper concert-index">
-        <h2 class="visually-hidden">NWC Concert Series</h2>
-        <div class="doyle-index">
-          <img src="img/AlanDoyle_Concert_index_1000x1237.jpg" alt="Alan Doyle" width="490">
-        </div>
-        <div class="index-info">
-          <div class="concert-logo">
-            <img src="img/concert_series_white.svg" alt="Concert Series" width="200">
-          </div>
-          <div class="concert-name">
-            <img src="img/alan_doyle_type.svg" alt="Alan Doyle" width="525">
-          </div>
-          <div class="concert-date">
-            <img src="img/concert_date.svg" alt="Concert Date" width="240">
-          </div>
-          <div class="concert-support">
-            <img src="img/concert-support.svg" alt="Support HHF" width="140">
-          </div>
-          <div class="btn btn__moreInfo nav__link">
-            <a class="btn btn__moreInfo nav__link" href="#">More Info</a>
-          </div>
-        </div>
-      </section>
+      <?php get_template_part( 'template-parts/concert-banner' ); ?>
       <!-- ============================================== -->
 
       <!-- SPONSORS
