@@ -106,7 +106,7 @@
           </div>
           <div class="sponsors__furTrader--logos">
             <a href="https://www.olddutchfoods.ca/" target="_blank">
-              <img src="img/oldDutch_300x223.svg" alt="Old Dutch" width="194" height="145">
+              <img src="<?php echo get_theme_file_uri() ?>/img/trend_marketing_400x300.svg" alt="Old Dutch" width="300">
             </a>
           </div>
         </div>

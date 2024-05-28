@@ -67,121 +67,44 @@
         <div class="sponsors__banner">
           <h2>Conference & Trade Show Sponsors</h2>
         </div>
+        <h3 class="sponsor-links">All sponsor links open in a new window</h3>
 
         <!-- sponsors__conference--nor'westors -->
         <h2 class="pages__subhead">Nor'Westors</h2>
-        <div class="sponsors__conference--norwester">
-          <!-- sponsors__conference--half-width -->
-          <div class="sponsors__conference--half-width">
-          
-            <?php 
-              $image = get_field('sponsor_coca_cola_canada');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-            <?php endif; ?>
-            
-            <div class="sponsors__conference--text">
-              <h2 class="sponsor-head">Coca-Cola Canada Bottling Limited </h2>
+          <div class="sponsors__conference--norwester">
+
+            <!-- sponsors__conference--half-width QUALITY FAST FOODS -->
+            <div class="sponsors__conference--half-width">
               
-              <a class="sponsor-url" href="https://cokecanada.com/" target="_blank">cokecanada.com</a >
+              <?php 
+                $image = get_field('sponsor_quality_fast_foods');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+              
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Quality Fast Foods</h2>
+                
+                <a class="sponsor-url" href="https://cokecanada.com/" target="_blank">cokecanada.com</a >
+              </div>
             </div>
-          </div>
 
-          <!-- sponsors__conference--half-width -->
-          <div class="sponsors__conference--half-width">
-            <?php 
-              $image = get_field('sponsor_nestle_canada');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-            <?php endif; ?>
-            
-            <div class="sponsors__conference--text">
-              <h2 class="sponsor-head"> Nestle Canda</h2>
-
-              <a class="sponsor-url" href="https://www.corporate.nestle.ca/en" target="_blank">corporate.nestle.ca/en</a>
-            </div>
-          </div>
-
-          <!-- sponsors__conference--half-width -->
-          <div class="sponsors__conference--half-width">
-            <?php 
-              $image = get_field('sponsor_arctic_ice');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-            <?php endif; ?>
-
-            <div class="sponsors__conference--text">
-              <h2 class="sponsor-head">PepsiCo Foods (Frito Lay) & Arctic Beverages </h2>
-
-              <a class="sponsor-url" href="https://www.pepsico.ca/" target="_blank">pepsico.ca</a>
-            </div>
-          </div>
-
-          <!-- sponsors__conference--half-width -->
-          <div class="sponsors__conference--half-width">
-            <?php 
-              $image = get_field('sponsor_hq');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-            <?php endif; ?>
-
-            <div class="sponsors__conference--text">
-              <h2 class="sponsor-head">HQ Fine Foods </h2>
-
-              <a class="sponsor-url" href="https://hqfinefoods.com/" target="_blank">hqfinefoods.com</a>
-            </div>
-          </div>
-
-          <!-- sponsors__conference--half-width -->
-          <div class="sponsors__conference--half-width">
-            <?php 
-              $image = get_field('sponsor_dufresne');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-            <?php endif; ?>
-
-            <div class="sponsors__conference--text">
-              <h2 class="sponsor-head">The Dufresne Group </h2>
-
-              <a class="sponsor-url" href="https://dufresne.ca/" target="_blank">dufresne.ca</a>
-            </div>
-          </div>
-          <!-- sponsors__conference--half-width -->
-        </div>
-
-        <!-- sponsors__conference--furtrader -->
-        <h2 class="pages__subhead">Fur Trader</h2>
-          <div class="sponsors__conference--furtrader">
+            <!-- sponsors__conference--half-width ARCTIC BEVERAGES -->
             <div class="sponsors__conference--half-width">
               <?php 
-                $image = get_field('sponsor_wonderbrands');
+                $image = get_field('sponsor_arctic_ice');
                 if( !empty( $image ) ): ?>
                     <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
               <?php endif; ?>
 
               <div class="sponsors__conference--text">
-                <h2 class="sponsor-head">Wonderbrands</h2>
+                <h2 class="sponsor-head">PepsiCo Foods (Frito Lay) & Arctic Beverages </h2>
 
-                <a class="sponsor-url" href="https://wonderbrands.com/" target="_blank">wonderbrands.com</a>
+                <a class="sponsor-url" href="https://www.pepsico.ca/" target="_blank">pepsico.ca</a>
               </div>
             </div>
 
-            <!-- sponsors__conference--half-width -->
-            <div class="sponsors__conference--half-width">
-              <?php 
-                $image = get_field('sponsors_maple_leaf');
-                if( !empty( $image ) ): ?>
-                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-              <?php endif; ?>
-
-              <div class="sponsors__conference--text">
-                <h2 class="sponsor-head">Maple Leaf Consumer Foods</h2>
-
-                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
-              </div>
-            </div>
-
-            <!-- sponsors__conference--half-width -->
+            <!-- sponsors__conference--half-width OLD DUTCH -->
             <div class="sponsors__conference--half-width">
               <?php 
                 $image = get_field('sponsor_old_dutch');
@@ -196,10 +119,41 @@
               </div>
             </div>
 
-            <!-- sponsors__conference--half-width -->
+            <!-- sponsors__conference--half-width DUFRESNE -->
             <div class="sponsors__conference--half-width">
               <?php 
-                $image = get_field('sponsor_pg');
+                $image = get_field('sponsor_dufresne');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">The Dufresne Group </h2>
+
+                <a class="sponsor-url" href="https://dufresne.ca/" target="_blank">dufresne.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width COCA-COLA -->
+            <div class="sponsors__conference--half-width">
+            
+              <?php 
+                $image = get_field('sponsor_coca_cola_canada');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+              
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Coca-Cola Canada Bottling Limited </h2>
+                
+                <a class="sponsor-url" href="https://cokecanada.com/" target="_blank">cokecanada.com</a >
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width CROSSMARK - P&G -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_p&g');
                 if( !empty( $image ) ): ?>
                     <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
               <?php endif; ?>
@@ -211,7 +165,103 @@
               </div>
             </div>
 
-            <!-- sponsors__conference--half-width -->
+            <!-- sponsors__conference--half-width KRAFT/HEINZ -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_kraft');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+              
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Kraft Heinz</h2>
+
+                <a class="sponsor-url" href="https://www.corporate.nestle.ca/en" target="_blank">corporate.nestle.ca/en</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width NESTLE -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_nestle_canada');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+              
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head"> Nestle Canda</h2>
+
+                <a class="sponsor-url" href="https://www.corporate.nestle.ca/en" target="_blank">corporate.nestle.ca/en</a>
+              </div>
+            </div>
+
+          </div>
+
+        <!-- sponsors__conference--furtrader -->
+        <h2 class="pages__subhead">Fur Trader</h2>
+          <div class="sponsors__conference--furtrader">
+
+            <!-- sponsors__conference--half-width GMD Wholesale -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_gmd');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">GMD Wholesale</h2>
+
+                <a class="sponsor-url" href="https://wonderbrands.com/" target="_blank">GMD Wholesale</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width  Dream on me Kidway Company -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_dream_on');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Dream on me Kidway Company</h2>
+
+                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Harlan Fairbanks -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_harlan_fairbanks');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Harlan Fairbanks</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+            
+            <!-- sponsors__conference--half-width HT Foods -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_ht_foods');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">HT Foods</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Unilever -->
             <div class="sponsors__conference--half-width">
               <?php 
                 $image = get_field('sponsor_unilever');
@@ -220,15 +270,184 @@
               <?php endif; ?>
 
               <div class="sponsors__conference--text">
-                <h2 class="sponsor-head">Unilever Canada</h2>
+                <h2 class="sponsor-head">Unilever</h2>
 
                 <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
               </div>
             </div>
+
+            <!-- sponsors__conference--half-width Conglom -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_conglom');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Conglom</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Gentec International -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_gentec');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Gentec International</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Complete Distribution Services -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_complete_dist');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Complete Distribution Services</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Bimbo Canada -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_bimbo_canada');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Bimbo Canada</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Maple Leaf Foods -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_maple_leaf');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Maple Leaf Foods</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Trend Marketing -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_trend');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Trend Marketing</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
           </div>
 
               
+        <!-- sponsors__conference--meal sponsors -->
+        <h2 class="pages__subhead">Fur Trader</h2>
+          <div class="sponsors__conference--furtrader">
 
+            <!-- sponsors__conference--half-width Bimbo Canada -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_bimbo_canada');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Bimbo Canada</h2>
+
+                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width High Liner Foods -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_high_liner');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">High Liner Foods</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+            
+            <!-- sponsors__conference--half-width Sysco -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_sysco');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Sysco</h2>
+
+                <a class="sponsor-url" href="https://www.sysco.ca/location/winnipeg/" target="_blank">sysco.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Tropicana Brands -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_tropicana');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Tropicana Brands</h2>
+
+                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width Metro -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_metro');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">Metro</h2>
+
+                <a class="sponsor-url" href="https://corpo.metro.ca/en/home.html" target="_blank">metro.ca</a>
+              </div>
+            </div>
+          </div>
                 
 
           
