@@ -46,7 +46,7 @@
 
             <!-- contact button -->
             <div class="btn btn__contact btn__contact--footer nav__link">
-              <a class="btn btn__contact nav__link" href="contact.html">Contact</a>
+              <a class="btn btn__contact nav__link" href="<?php echo site_url( '/contact' ); ?>">Contact</a>
             </div>
             <!-- contact button end -->
         </div>

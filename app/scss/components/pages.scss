@@ -60,6 +60,7 @@
   h1 {
     color: var(--darkGreen);
     margin-bottom: rem(40);
+    text-align: left;
   }
 
   @include breakpoint (small) {
