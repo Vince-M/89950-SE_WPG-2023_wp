@@ -45,6 +45,11 @@
       }
     }
 
+    &--hotelText h1 {
+      font-weight: 700;
+      color: var(--white);
+    }
+
     &--text {
       width: 80%;
       text-align: left;
@@ -73,15 +78,15 @@
     }
 
     &--hotel {
-      background-image: url('../img/hotel_entrance_2400x650.jpg');
+      background-image: url('img/hotel_entrance_2400x650.jpg');
     }
 
     &--comfort {
-      background-image: url('../img/hotel_banquet_2400x650.jpg');
+      background-image: url('img/hotel_banquet_2400x650.jpg');
     }
 
     &--restaurant {
-      background-image: url('../img/hotel_restaurant_2400x650.jpg');
+      background-image: url('img/hotel_restaurant_2400x650.jpg');
     }
   }
 }

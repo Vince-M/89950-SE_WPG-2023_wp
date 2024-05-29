@@ -85,7 +85,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Quality Fast Foods</h2>
                 
-                <a class="sponsor-url" href="https://cokecanada.com/" target="_blank">cokecanada.com</a >
+                <a class="sponsor-url" href="https://qualityfastfoods.com/" target="_blank">qualityfastfoods.com</a >
               </div>
             </div>
 
@@ -100,7 +100,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">PepsiCo Foods (Frito Lay) & Arctic Beverages </h2>
 
-                <a class="sponsor-url" href="https://www.pepsico.ca/" target="_blank">pepsico.ca</a>
+                <a class="sponsor-url" href="https://arcticbev.com/" target="_blank">arcticbev.com</a>
               </div>
             </div>
 
@@ -130,7 +130,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">The Dufresne Group </h2>
 
-                <a class="sponsor-url" href="https://dufresne.ca/" target="_blank">dufresne.ca</a>
+                <a class="sponsor-url" href="https://thedufresnegroup.ca/" target="_blank">thedufresnegroup.ca</a>
               </div>
             </div>
 
@@ -176,7 +176,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Kraft Heinz</h2>
 
-                <a class="sponsor-url" href="https://www.corporate.nestle.ca/en" target="_blank">corporate.nestle.ca/en</a>
+                <a class="sponsor-url" href="https://www.kraftheinzcompany.com/" target="_blank">kraftheinzcompany.com</a>
               </div>
             </div>
 
@@ -212,7 +212,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">GMD Wholesale</h2>
 
-                <a class="sponsor-url" href="https://wonderbrands.com/" target="_blank">GMD Wholesale</a>
+                <a class="sponsor-url" href="https://gmdwholesale.ca/" target="_blank">gmdwholesale.ca</a>
               </div>
             </div>
 
@@ -227,7 +227,8 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Dream on me Kidway Company</h2>
 
-                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
+                <a class="sponsor-url" href="https://dreamonme.com/" target="_blank">dreamonme.com</a><br>
+                <a class="sponsor-url" href=" https://www.kidiway.com/" target="_blank">kidiway.com</a>
               </div>
             </div>
 
@@ -242,7 +243,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Harlan Fairbanks</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://harlans.ca/" target="_blank">harlans.ca</a>
               </div>
             </div>
             
@@ -257,7 +258,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">HT Foods</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="http://htfoods.ca/" target="_blank">htfoods.ca</a>
               </div>
             </div>
 
@@ -287,7 +288,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Conglom</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://www.conglom.com/" target="_blank">conglom.com</a>
               </div>
             </div>
 
@@ -302,7 +303,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Gentec International</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://www.gentec-intl.com/" target="_blank">gentec-intl.com</a>
               </div>
             </div>
 
@@ -317,7 +318,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Complete Distribution Services</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://compdist.ca/" target="_blank">compdist.ca</a>
               </div>
             </div>
 
@@ -332,7 +333,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Bimbo Canada</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://bimbocanada.com/" target="_blank">bimbocanada.com</a>
               </div>
             </div>
 
@@ -347,7 +348,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Maple Leaf Foods</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
               </div>
             </div>
 
@@ -362,7 +363,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Trend Marketing</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://trendm.com/" target="_blank">trendm.com</a>
               </div>
             </div>
 
@@ -384,7 +385,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Bimbo Canada</h2>
 
-                <a class="sponsor-url" href="https://www.mapleleaffoods.com/" target="_blank">mapleleaffoods.com</a>
+                <a class="sponsor-url" href="https://bimbocanada.com/" target="_blank">bimbocanada.com</a>
               </div>
             </div>
 
@@ -399,7 +400,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">High Liner Foods</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://www.highlinerfoods.com/" target="_blank">highlinerfoods.com</a>
               </div>
             </div>
             
@@ -414,7 +415,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Sysco</h2>
 
-                <a class="sponsor-url" href="https://www.sysco.ca/location/winnipeg/" target="_blank">sysco.ca</a>
+                <a class="sponsor-url" href="https://www.sysco.ca/" target="_blank">sysco.ca</a>
               </div>
             </div>
 
@@ -429,7 +430,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Tropicana Brands</h2>
 
-                <a class="sponsor-url" href="https://www.unilever.ca/" target="_blank">unilever.ca</a>
+                <a class="sponsor-url" href="https://www.tropicanabrandsgroup.com/" target="_blank">tropicanabrandsgroup.com</a>
               </div>
             </div>
 
@@ -444,7 +445,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Metro</h2>
 
-                <a class="sponsor-url" href="https://corpo.metro.ca/en/home.html" target="_blank">metro.ca</a>
+                <a class="sponsor-url" href="https://www.metro.ca/en" target="_blank">metro.ca/en</a>
               </div>
             </div>
           </div>

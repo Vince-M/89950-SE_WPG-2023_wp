@@ -38,18 +38,81 @@
               }?>
           </div>
       </div>
+      <!-- ============================================== -->
 
-      <section class="wrapper text__container intro">
-   
-          <?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+      <!-- SECTIONS
+      =================================================== -->
+      <section class="hotel fullWidth fullWidth__section fullWidth__section--reverse fullWidth__section--hotelBKGD">
+          <div class="fullWidth__section--img fullWidth__section--hotel">
+          </div>
 
-          <?php the_content(); ?>
+          <div class="fullWidth__section--textOuter fullWidth__section--textRight">
+            <div class="inner-container">
+              <div class="fullWidth__section--text">
+                <div class="fullWidth__section--innerWrapper fullWidth__section--hotelText">
+                  <h1><?php echo esc_html( get_field('victoria_inn_heading') ); ?></h1>
+                  <h2><?php echo esc_html( get_field('victoria_inn_subhead') ); ?></h2>
+                  <p><?php echo esc_html( get_field('hotel_intro') ); ?></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-          <?php endwhile; else: ?>
+        <section class="comfort fullWidth fullWidth__section fullWidth__section--comfortBKGD">
+          <div class="fullWidth__section--img fullWidth__section--comfort"></div>
+          <div class="fullWidth__section--textOuter">
+            <div class="inner-container">
+              <div class="fullWidth__section--text">
+                <div class="fullWidth__section--innerWrapper fullWidth__section--comfortText">
+                  <h2><?php echo esc_html( get_field('comfort_subhead') ); ?></h2>
+                  <p><?php echo esc_html( get_field('comfort_text') ); ?></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-          <p>Sorry, no pages found</p>
+        <section class="hotel fullWidth fullWidth__section fullWidth__section--reverse fullWidth__section--hotelBKGD">
+          <div class="fullWidth__section--img fullWidth__section--restaurant">
+          </div>
 
-          <?php endif; ?>
+          <div class="fullWidth__section--textOuter fullWidth__section--textRight">
+            <div class="inner-container">
+              <div class="fullWidth__section--text">
+                <div class="fullWidth__section--innerWrapper fullWidth__section--restaurantText">
+                  <h3 class="hours">Restaurant Hours</h3>
+                  <p><strong>Breakfast</strong><br>
+                    Daily: 7am - 11am<br>
+                    <strong>Lunch</strong><br>
+                    Daily: 11am - 4pm<br>
+                    Dinner<br>
+                    Daily: 4pm - 10pm</p>
+
+                    <p class="menus"><strong>View Menus</strong><br>
+                      <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Breakfast-Menu-WEB-20230109.pdf" target="_blank">Breakfast</a> / <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Lunch-Menu-WEB-20230109.pdf" target="_blank">Lunch</a> / <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Dinner-Menu-WEB-20230109.pdf" target="_blank">Dinner</a></p>
+
+                  <h3 class="hours">Lounge & VLTs</h3>
+                  <p>Monday - Saturday:  11am - 12am (Last Call at 11:30pm)<br>
+                    Sunday:  11am - 11pm (last call at 10:30pm)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- VICTORIA INN BANNER
+      =================================================== -->
+      <section class="wrapper stay">
+        <h2>Stay with us for Business or Pleasure</h2>
+
+        <a href="https://winnipeg.vicinn.com/" target="_blank">
+            <?php 
+              $image = get_field('large_victoria_inn_logo');
+              if( !empty( $image ) ): ?>
+                  <img  src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="480" >
+            <?php endif; ?>
+          </a>
 
       </section>
       <!-- ============================================== -->
