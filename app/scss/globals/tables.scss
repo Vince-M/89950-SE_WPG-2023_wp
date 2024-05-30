@@ -1,0 +1,106 @@
+@use "../util" as *;
+
+.schedules {
+  margin-bottom: rem(40);
+}
+
+table {
+  border: rem(1) solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  // width: 100%;
+  table-layout: fixed;
+}
+
+.pharmacy-table {
+  width: 100%;
+}
+
+table caption {
+  font-size: em(24);
+  margin: em(8) 0 0.75em;
+  text-align: left;
+  color: var(--nwcGreen);
+}
+
+.schedules tr {
+  // background-color: #f8f8f8;
+  border: rem(1) solid var(--grey);
+  padding: em(6);
+}
+
+table th,
+table td {
+  padding: em(14);
+  text-align: center;
+  font-weight: 500;
+  font-family: var(--font-body);
+  font-size: rem(15);
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: rem(1);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: em(20.8);
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: rem(1);
+    margin: rem(-1);
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: rem(1);
+  }
+
+  table tr {
+    border-bottom: rem(3) solid #ddd;
+    display: block;
+    margin-bottom: em(10);
+  }
+
+  table td {
+    border-bottom: rem(1) solid #ddd;
+    display: block;
+    font-size: em(12.8);
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+.row {
+  &__spacer {
+    background-color: var(--ncrGreen);
+    color: var(--white);
+  }
+}
+
+.small_th {
+  font-size: rem(12);
+}

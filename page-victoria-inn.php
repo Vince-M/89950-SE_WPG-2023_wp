@@ -81,18 +81,18 @@
             <div class="inner-container">
               <div class="fullWidth__section--text">
                 <div class="fullWidth__section--innerWrapper fullWidth__section--restaurantText">
-                  <h3 class="hours">Restaurant Hours</h3>
-                  <p><strong>Breakfast</strong><br>
-                    Daily: 7am - 11am<br>
-                    <strong>Lunch</strong><br>
-                    Daily: 11am - 4pm<br>
-                    Dinner<br>
-                    Daily: 4pm - 10pm</p>
+                <h2><?php echo esc_html( get_field('restaurant_subhead') ); ?></h2>
+                  <h3 class="hours"><?php echo esc_html( get_field('restaurant_meal_head') ); ?></h3>
+                  <p>Daily: 7am - 11am</p>
+                  <h3 class="hours"><?php echo esc_html( get_field('restaurant_lunch_head') ); ?></h3>
+                    <p>Daily: 11am - 4pm</p>
+                    <h3 class="hours"><?php echo esc_html( get_field('restaurant_dinner_head') ); ?></h3>
+                    <p>Daily: 4pm - 10pm</p>
 
                     <p class="menus"><strong>View Menus</strong><br>
                       <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Breakfast-Menu-WEB-20230109.pdf" target="_blank">Breakfast</a> / <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Lunch-Menu-WEB-20230109.pdf" target="_blank">Lunch</a> / <a href="https://winnipeg.vicinn.com/wp-content/uploads/2023/07/VIW-Dinner-Menu-WEB-20230109.pdf" target="_blank">Dinner</a></p>
 
-                  <h3 class="hours">Lounge & VLTs</h3>
+                      <h3 class="hours"><?php echo esc_html( get_field('restaurant_lounge_head') ); ?></h3>
                   <p>Monday - Saturday:  11am - 12am (Last Call at 11:30pm)<br>
                     Sunday:  11am - 11pm (last call at 10:30pm)</p>
                 </div>
