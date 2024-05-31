@@ -9,7 +9,7 @@ table {
   border-collapse: collapse;
   margin: 0;
   padding: 0;
-  // width: 100%;
+  width: 100%;
   table-layout: fixed;
 }
 
@@ -32,11 +32,12 @@ table caption {
 
 table th,
 table td {
-  padding: em(14);
-  text-align: center;
   font-weight: 500;
   font-family: var(--font-body);
   font-size: rem(15);
+  text-align: left;
+  vertical-align: top;
+  padding: em(14);
 }
 
 table th {

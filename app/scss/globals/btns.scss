@@ -26,6 +26,14 @@
     }
   }
 
+  &__back {
+    margin: rem(60) 0;
+
+    @include breakpoint-down(small) {
+      margin-left: 0;
+    }
+  }
+
   &__contact a:hover {
     background: linear-gradient(var(--lightGreen) 0 5%, var(--black));
     border: 1px solid var(--lightGreen);

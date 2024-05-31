@@ -43,3 +43,19 @@ p {
 .concert-info p {
   margin-bottom: 0;
 }
+
+h1.conference-head {
+  width: 80%;
+  margin: 0 auto rem(60);
+
+  @include breakpoint-down(small) {
+    margin: 0 0 3.75rem;
+    width: 100%;
+  }
+}
+
+h2.conference-subhead {
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.35rem + 0.75vw, 2.25rem);
+  color: var(--darkGreen);
+}
