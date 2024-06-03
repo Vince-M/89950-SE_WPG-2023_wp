@@ -60,7 +60,7 @@
         <div class="footer__media--links">
           <a href="https://www.northwest.ca/legal-privacy" target="_blank">Legal / Privacy</a>
           <a href="https://www.northwest.ca/terms-and-conditions" target="_blank">Terms & Conditions</a>
-          <a href="https://www.northwest.ca/contact-us" target="_blank">Contact</a>
+          <a href="https://www.northwest.ca/contact-us" target="_blank">Contact NWC</a>
         </div>
       </div>
     </div>
