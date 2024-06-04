@@ -46,7 +46,7 @@
         <!-- header__logo end -->
 
         <!-- hamburger menu -->
-        <a id="btnHamburger" class="hamburger header__toggle hide-for-desktop" href="#">
+        <a id="btnHamburger" class="hamburger header__toggle hide-for-desktop" href="#" role="button">
           <span></span>
           <span></span>
           <span></span>
