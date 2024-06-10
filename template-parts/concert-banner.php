@@ -2,7 +2,7 @@
     <h2 class="visually-hidden">NWC Concert Series</h2>
     <div class="index-info concert__banner">
       <div class="concert-logo">
-        <img class="conference" src="<?php echo get_theme_file_uri() ?>/img/concert_series_white.svg" alt="Concert Series" width="200">
+        <img class="conference" src="<?php echo get_theme_file_uri() ?>/img/WPG-concert-series-white_860x319.png" alt="Concert Series" width="200">
       </div>
       <div class="concert-name">
         <img class="conference" src="<?php echo get_theme_file_uri() ?>/img/alan_doyle_type.svg" alt="Alan Doyle" width="525"> 

@@ -16,7 +16,7 @@
                 <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding.svg" alt="WPG logo" class="hero-brand">
               </div> <!-- hero__branding -->
               <div class="hero__info">
-                <p class="hero__date">June 8 - 13, 2024</p>
+                <p class="hero__date">June 8 - 14, 2024</p>
                 <p class="hero__location">
                   <span class="hero__hotel">Victoria Inn</span><br>
                   <span class="hero__place">Hotel & Conference Centre<br>
@@ -51,7 +51,7 @@
         <h2 class="visually-hidden">Conference Tracks</h2>
         <div>
           <img class="conference" src="<?php echo get_theme_file_uri() ?>/img/conference-column.jpg" alt="conference" width="390">
-          <a class="track_link" href="<?php echo site_url( '/conference-schedule' ); ?>">Conference &rarr;</a>
+          <a class="track_link" href="<?php echo site_url( '/conference-schedule' ); ?>">NCR &rarr;</a>
         </div>
         <div>
           <img class="pharmacy" src="<?php echo get_theme_file_uri() ?>/img/pharmacy-column.jpg" alt="pharmacy" width="390">
@@ -59,7 +59,7 @@
         </div>
         <div>
           <img class="trade-show" src="<?php echo get_theme_file_uri() ?>/img/trade_show-column.jpg" alt="trade-show" width="390">
-          <a class="track_link" href="<?php echo site_url( '/wpg-concert-series' ); ?>">Trade Show Rotations &rarr;</a>
+          <a class="track_link" href="<?php echo site_url( '/trade-show-rotations' ); ?>">Trade Show Rotations &rarr;</a>
         </div>
       </section>
       <!-- ============================================== -->
@@ -85,7 +85,7 @@
         </div>
         <div class="index-info">
           <div class="concert-logo">
-            <img src="<?php echo get_theme_file_uri() ?>/img/concert_series_white.svg" alt="Concert Series" width="200">
+            <img src="<?php echo get_theme_file_uri() ?>/img/WPG-concert-series-white_860x319.png" alt="Concert Series" width="200">
           </div>
           <div class="concert-name">
             <!-- <img src="img/alan_doyle_type.svg" alt="Alan Doyle" width="525"> -->

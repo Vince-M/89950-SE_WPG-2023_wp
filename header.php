@@ -18,6 +18,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NX924D7T');</script>
+<!-- End Google Tag Manager -->
 
 
   <?php wp_head(); ?>
@@ -26,6 +33,12 @@
 </head>
 <body <?php body_class(); ?>>
       <?php wp_body_open(); ?>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NX924D7T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
   <a href="#main" class="visually-hidden">Skip to main content</a>
 
   <!-- HEADER / NAVIGATION SECTION START
@@ -40,7 +53,7 @@
         <!-- header__logo start -->
         <div class="header__logo site-branding">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <img src="<?php echo get_theme_file_uri(); ?>/img/head-logo.svg" alt="Wintering Partners Gathering 2024" width="140">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/head-logo.svg" alt="home" width="140">
           </a>
         </div>
         <!-- header__logo end -->

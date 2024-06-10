@@ -16,7 +16,7 @@
                 <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding.svg" alt="WPG logo" class="hero-brand">
               </div> <!-- hero__branding -->
               <div class="hero__info">
-                <p class="hero__date">June 8 - 13, 2024</p>
+                <p class="hero__date">June 8 - 14, 2024</p>
                 <p class="hero__location">
                   <span class="hero__hotel">Victoria Inn</span><br>
                   <span class="hero__place">Hotel & Conference Centre<br>
@@ -114,6 +114,24 @@
             <?php endif; ?>
           </a>
 
+      </section>
+      <!-- ============================================== -->
+
+            <!-- HORIZONTAL LINE
+      =================================================== -->
+      <section class="wrapper">
+        <hr>
+      </section>
+      <!-- ============================================== -->
+
+            <!-- SPONSOR BANNER
+      =================================================== -->
+      <section class="wrapper sponsorBannerFull">
+          <?php 
+            $image = get_field('sponsor_banner');
+            if( !empty( $image ) ): ?>
+                <img  src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="100%" >
+          <?php endif; ?>
       </section>
       <!-- ============================================== -->
 

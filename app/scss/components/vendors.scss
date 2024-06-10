@@ -97,6 +97,9 @@
     &--zone6 {
       color: var(--zone6);
     }
+    &--zone7 {
+      color: var(--zone7);
+    }
   }
 
   &__zone1 {
@@ -132,6 +135,12 @@
   &__zone6 {
     // border: rem(5) solid var(--nwcGreen);
     background-color: var(--zone6);
+    margin-bottom: rem(10);
+  }
+
+  &__zone7 {
+    // border: rem(5) solid var(--nwcGreen);
+    background-color: var(--zone7);
     margin-bottom: rem(10);
   }
 

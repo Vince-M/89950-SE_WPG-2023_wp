@@ -11,7 +11,7 @@
         <div class="hero__concert" style="background: url(<?php the_field( 'concert_hero' ); ?>) no-repeat; background-position: top; background-size: cover; top: 30px;">
 
           <div class="hero__concert--head">
-            <img class="hero__concert--logo" src="<?php echo get_theme_file_uri() ?>/img/concert-series-logo_430x157.svg" width="430" alt="NWC Concert Series">
+            <img class="hero__concert--logo" src="<?php echo get_theme_file_uri() ?>/img/WPG-concert-series-white_860x319.png" width="430" alt="NWC Concert Series">
 
             <div class="concert__name">
               <?php 

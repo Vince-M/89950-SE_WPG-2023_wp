@@ -16,7 +16,7 @@
                 <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding.svg" alt="WPG logo" class="hero-brand">
               </div> <!-- hero__branding -->
               <div class="hero__info">
-                <p class="hero__date">June 8 - 13, 2024</p>
+                <p class="hero__date">June 8 - 14, 2024</p>
                 <p class="hero__location">
                   <span class="hero__hotel">Victoria Inn</span><br>
                   <span class="hero__place">Hotel & Conference Centre<br>
@@ -146,7 +146,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head">Coca-Cola Canada Bottling Limited </h2>
                 
-                <a class="sponsor-url" href="https://cokecanada.com/" target="_blank">cokecanada.com</a >
+                <a class="sponsor-url" href="https://www.coca-colacompany.com/" target="_blank">coca-colacompany.com</a >
               </div>
             </div>
 
@@ -162,6 +162,7 @@
                 <h2 class="sponsor-head">Procter & Gamble</h2>
 
                 <a class="sponsor-url" href="https://pg.ca/en-ca/" target="_blank">pg.ca</a>
+                <a class="sponsor-url" href="https://www.crossmark.com/" target="_blank">crossmark.com</a>
               </div>
             </div>
 
@@ -191,7 +192,7 @@
               <div class="sponsors__conference--text">
                 <h2 class="sponsor-head"> Nestle Canda</h2>
 
-                <a class="sponsor-url" href="https://www.corporate.nestle.ca/en" target="_blank">corporate.nestle.ca/en</a>
+                <a class="sponsor-url" href="https://www.nestle.com/" target="_blank">nestle.com</a>
               </div>
             </div>
 
@@ -371,7 +372,7 @@
 
               
         <!-- sponsors__conference--meal sponsors -->
-        <h2 class="pages__subhead">Fur Trader</h2>
+        <h2 class="pages__subhead">Meal Sponsors</h2>
           <div class="sponsors__conference--furtrader">
 
             <!-- sponsors__conference--half-width Bimbo Canada -->

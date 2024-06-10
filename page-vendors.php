@@ -16,7 +16,7 @@
                 <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding.svg" alt="WPG logo" class="hero-brand">
               </div> <!-- hero__branding -->
               <div class="hero__info">
-                <p class="hero__date">June 8 - 13, 2024</p>
+                <p class="hero__date">June 8 - 14, 2024</p>
                 <p class="hero__location">
                   <span class="hero__hotel">Victoria Inn</span><br>
                   <span class="hero__place">Hotel & Conference Centre<br>
@@ -71,7 +71,7 @@
 
           <div class="vendors">
 
-            <!-- ZONE 1 -->
+            <!-- ZONE 1 / BEAUFORT SEA -->
             <div class="vendors__col">
 
               <?php    
@@ -81,7 +81,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone1">Zone 1</h2>
+              <h2 class="vendor__header vendor__header--zone1">BEAUFORT SEA</h2>
               <div class="vendors__zones">
                 
 
@@ -100,7 +100,7 @@
               
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 2 -->
+            <!-- ZONE 2 / PARRY CHANNEL -->
             <div class="vendors__col">
 
               <?php    
@@ -110,7 +110,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone2">Zone 2</h2>
+              <h2 class="vendor__header vendor__header--zone2">PARRY CHANNEL</h2>
               <div class="vendors__zones">
                 
 
@@ -129,7 +129,7 @@
               
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 3 -->
+            <!-- ZONE 3 / BAFFIN BAY -->
             <div class="vendors__col">
 
               <?php    
@@ -139,7 +139,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone3">Zone 3</h2>
+              <h2 class="vendor__header vendor__header--zone3">BAFFIN BAY</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
@@ -157,7 +157,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 4 -->
+            <!-- ZONE 4 / Foxe Basin -->
             <div class="vendors__col">
 
               <?php    
@@ -167,7 +167,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone4">Zone 4</h2>
+              <h2 class="vendor__header vendor__header--zone4">Foxe Basin</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
@@ -185,7 +185,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 5 -->
+            <!-- ZONE 5 / Davis Straight -->
             <div class="vendors__col">
 
               <?php    
@@ -195,7 +195,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone5">Zone 5</h2>
+              <h2 class="vendor__header vendor__header--zone5">Davis Straight</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
@@ -213,7 +213,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 6 -->
+            <!-- ZONE 6 / Labrador Sea -->
             <div class="vendors__col">
 
               <?php    
@@ -223,13 +223,41 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone6">Zone 6</h2>
+              <h2 class="vendor__header vendor__header--zone6">Labrador Sea</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone6">
+                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                  </div> <!-- vendor vendor__zone1 -->
+
+                <?php endwhile; ?>
+
+                <?php wp_reset_postdata(); ?>
+              </div> <!-- vendors__zones -->
+
+            </div> <!-- vendors__col -->
+
+            <!-- ZONE 7 / Hudson Bay -->
+            <div class="vendors__col">
+
+              <?php    
+                $conferenceVendors = new WP_Query ( array(       
+                  'post_type'       => 'zone7',
+                  'posts_per_page'  =>  -1,
+                  'paged'           =>  $paged,
+                ));
+              ?>
+              <h2 class="vendor__header vendor__header--zone7">Hudson Bay</h2>
+              <div class="vendors__zones">
+                
+                <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
+
+
+                  <div class="vendor vendor__zone7">
                     <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
                     <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
