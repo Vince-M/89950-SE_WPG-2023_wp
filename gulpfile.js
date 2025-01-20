@@ -27,7 +27,7 @@ function jsTask() {
 // Browsersync
 function browserSyncServe(cb) {
   browsersync.init({
-    browser: "firefox",
+    browser: "firefox developer edition",
     proxy: "http://89950-sewpg-2023-june-8-13.local/",
     notify: {
       styles: {
