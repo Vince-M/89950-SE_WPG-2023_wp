@@ -13,14 +13,14 @@
           <div class="hero__indexContent">
             <div class="hero__content">
               <div class="hero__branding">
-                <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding.svg" alt="WPG logo" class="hero-brand">
+                <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding_2025.svg" alt="WPG logo" class="hero-brand">
               </div> <!-- hero__branding -->
               <div class="hero__info">
-                <p class="hero__date">June 8 - 14, 2024</p>
+                <p class="hero__date"><?php echo esc_html( get_field('conference_dates') ); ?></p>
                 <p class="hero__location">
-                  <span class="hero__hotel">Victoria Inn</span><br>
-                  <span class="hero__place">Hotel & Conference Centre<br>
-                  Winnipeg, Manitoba</span></p>
+                  <span class="hero__hotel"><?php echo esc_html( get_field('hotel_name') ); ?></span><br>
+                  <span class="hero__place"><?php echo esc_html( get_field('hotel_name_cont') ); ?><br>
+                  <?php echo esc_html( get_field('city_province') ); ?></span></p>
               </div> <!-- hero__info -->
             </div> <!-- hero__content -->
           </div> <!-- hero__index -->
@@ -97,11 +97,9 @@
           </div>
           <div class="concert-date">
             <!-- <img src="img/concert_date.svg" alt="Concert Date" width="240"> -->
-            <?php 
-              $image = get_field('concert_date');
-              if( !empty( $image ) ): ?>
-                  <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" width="240" />
-            <?php endif; ?>
+                <h2>May 29<sup>th</sup>, 2025</h2>
+                <h3>Victoria Inn</h3>
+                <h3>Winnipeg, MB</h3>
           </div>
           <div class="concert-support">
             <img src="<?php echo get_theme_file_uri() ?>/img/concert-support.svg" alt="Support HHF" width="140">

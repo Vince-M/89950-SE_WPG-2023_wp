@@ -2,10 +2,12 @@
         <div class="sponsors__banner">
           <h2>Conference & Trade Show Sponsors</h2>
         </div>
+        <p><em>* All Sponsor links open in a seperate window. *</em></p>
 
       <!-- NOR'WESTERS
       =================================================== -->
         <h3 class="sponsors__head">Nor'Westers</h3>
+        
         <div class="sponsors__norWester">
           <div class="sponsors__norWester--logos">
             <a href="https://www.coca-colacompany.com/" target="_blank">

@@ -10,7 +10,7 @@
     background-color: var(--darkGreen);
     padding: rem(20) rem(10);
     color: var(--white);
-    margin-bottom: rem(60);
+    margin-bottom: rem(20);
 
     h2 {
       font-size: rem(48);
@@ -227,5 +227,10 @@
 }
 
 .sponsorBannerFull {
+  margin-bottom: rem(60);
+}
+
+.sponsors > p {
+  text-align: center;
   margin-bottom: rem(60);
 }
