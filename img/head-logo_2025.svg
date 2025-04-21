@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 125 52">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f1f1f1;
+      }
+
+      .st1 {
+        fill: #e9e9ea;
+      }
+
+      .st2 {
+        filter: url(#drop-shadow-9);
+      }
+
+      .st2, .st3, .st4, .st5 {
+        fill: #00ab83;
+      }
+
+      .st3 {
+        filter: url(#drop-shadow-8);
+      }
+
+      .st6 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .st7 {
+        filter: url(#drop-shadow-7);
+      }
+
+      .st8 {
+        fill: none;
+        filter: url(#drop-shadow-1);
+        stroke: #00ab83;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: .4px;
+      }
+
+      .st9 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st10 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st11 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st12 {
+        fill: url(#linear-gradient6);
+      }
+
+      .st13 {
+        fill: url(#linear-gradient7);
+      }
+
+      .st14 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st15 {
+        fill: #dfdfe0;
+      }
+
+      .st16 {
+        fill: #e7e7e8;
+      }
+
+      .st17 {
+        fill: #dcddde;
+      }
+
+      .st18 {
+        fill: #ef5158;
+      }
+
+      .st19 {
+        fill: #c8c9cb;
+      }
+
+      .st20 {
+        fill: #d2d3d4;
+      }
+
+      .st21 {
+        fill: #cdced0;
+      }
+
+      .st22 {
+        fill: url(#linear-gradient);
+      }
+
+      .st23 {
+        fill: #c2c4c5;
+      }
+
+      .st24 {
+        fill: #c7c9ca;
+      }
+
+      .st25 {
+        fill: #ececed;
+      }
+
+      .st26 {
+        fill: #c4c6c8;
+      }
+
+      .st27 {
+        fill: #dfe0e1;
+      }
+
+      .st28 {
+        fill: #cb2128;
+      }
+
+      .st29 {
+        fill: #cacbcd;
+      }
+
+      .st30 {
+        fill: #caccce;
+      }
+
+      .st31 {
+        isolation: isolate;
+      }
+
+      .st32 {
+        fill: #cfd0d1;
+      }
+
+      .st33 {
+        fill: #d7d8da;
+      }
+
+      .st34 {
+        fill: #d5d6d7;
+      }
+
+      .st35 {
+        fill: #c0c2c4;
+      }
+
+      .st36 {
+        fill: #ef5259;
+      }
+
+      .st37 {
+        fill: #d0d1d2;
+      }
+
+      .st38 {
+        fill: #d4d5d6;
+      }
+
+      .st39 {
+        fill: #bbbdbf;
+      }
+
+      .st40 {
+        fill: #bdbfc0;
+      }
+
+      .st41 {
+        fill: #e7e7e7;
+      }
+
+      .st4 {
+        filter: url(#drop-shadow-10);
+      }
+
+      .st5 {
+        filter: url(#drop-shadow-11);
+      }
+
+      .st42 {
+        fill: #e4e5e6;
+      }
+
+      .st43, .st44, .st45, .st46, .st47 {
+        fill: #fff;
+      }
+
+      .st48 {
+        fill: #f1f1f2;
+      }
+
+      .st49 {
+        fill: #cccecf;
+      }
+
+      .st50 {
+        fill: #ea1f27;
+      }
+
+      .st51 {
+        fill: #bfc1c3;
+      }
+
+      .st52 {
+        fill: #bebfc1;
+      }
+
+      .st53 {
+        fill: #c5c7c9;
+      }
+
+      .st54 {
+        fill: #e2e2e3;
+      }
+
+      .st55 {
+        fill: #e9eaeb;
+      }
+
+      .st44 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .st45 {
+        filter: url(#drop-shadow-6);
+      }
+
+      .st46 {
+        filter: url(#drop-shadow-5);
+      }
+
+      .st47 {
+        filter: url(#drop-shadow-4);
+      }
+
+      .st56 {
+        fill: #d9dadb;
+      }
+
+      .st57 {
+        fill: #dcdddf;
+      }
+
+      .st58 {
+        fill: #eeeeef;
+      }
+
+      .st59 {
+        fill: #d2d3d5;
+      }
+
+      .st60 {
+        fill: #eeeff0;
+      }
+
+      .st61 {
+        fill: #801619;
+      }
+
+      .st62 {
+        fill: #e1e2e2;
+      }
+
+      .st63 {
+        fill: #e4e4e5;
+      }
+
+      .st64 {
+        fill: #c3c4c6;
+      }
+
+      .st65 {
+        fill: url(#linear-gradient5);
+        filter: url(#drop-shadow-12);
+      }
+
+      .st66 {
+        fill: #d7d8d9;
+      }
+
+      .st67 {
+        fill: #801517;
+      }
+
+      .st68 {
+        fill: #ec1c24;
+      }
+
+      .st69 {
+        fill: #babcbe;
+      }
+
+      .st70 {
+        display: none;
+      }
+
+      .st71 {
+        fill: #cb2127;
+      }
+
+      .st72 {
+        fill: #dadbdc;
+      }
+
+      .st73 {
+        fill: #ececec;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="1.1" y="12.6" width="107" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="7.1" y="12.6" width="30" height="15" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur1" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur1" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="52.9" y="5.4" width="18" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.3" dy=".9"/>
+      <feGaussianBlur result="blur2" stdDeviation=".9"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-4" x="65.1" y="5.6" width="22" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur3" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" x="82.1" y="5.6" width="19" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur4" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" x="34.1" y=".6" width="23" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur5" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-7" x="49.1" y="24.6" width="49" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur6" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-8" x="7.1" y="25.6" width="18" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur7" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-9" x="15.1" y="25.6" width="19" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur8" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-10" x="24.1" y="25.6" width="19" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur9" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur9" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-11" x="33.1" y="25.6" width="18" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.2" dy="1.2"/>
+      <feGaussianBlur result="blur10" stdDeviation=".8"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur10" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="167.4" y1="783.1" x2="167.4" y2="752.6" gradientTransform="translate(0 -738)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec1c24"/>
+      <stop offset="1" stop-color="#f4969d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="167.5" y1="783" x2="167.5" y2="752.6" gradientTransform="translate(0 -738)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b12125"/>
+      <stop offset="1" stop-color="#ec1c24"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="167.4" y1="771" x2="167.4" y2="754.8" gradientTransform="translate(0 -738)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f05b61"/>
+      <stop offset="1" stop-color="#b12125"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="167.4" y1="770.9" x2="167.4" y2="754.9" gradientTransform="translate(0 -738)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec1c24"/>
+      <stop offset="1" stop-color="#981e21"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="110.5" y1="45.2" x2="110.5" y2="14.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea1f27"/>
+      <stop offset="1" stop-color="#f4959c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient5" x1="110.5" y1="45" x2="110.5" y2="14.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b02226"/>
+      <stop offset="1" stop-color="#ea1f27"/>
+    </linearGradient>
+    <filter id="drop-shadow-12" x="98.3" y="12.8" width="27" height="37" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.1" dy="1.1"/>
+      <feGaussianBlur result="blur11" stdDeviation=".7"/>
+      <feFlood flood-color="#221f1f" flood-opacity=".5"/>
+      <feComposite in2="blur11" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient6" x1="110.5" y1="33" x2="110.5" y2="16.8" gradientTransform="translate(114.1 -88.3) rotate(79.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f05d61"/>
+      <stop offset="1" stop-color="#b02226"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient7" x1="110.5" y1="32.9" x2="110.5" y2="16.9" gradientTransform="translate(83.9 -85.2) rotate(63.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ea1f27"/>
+      <stop offset="1" stop-color="#982022"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="st8" d="M6.4,14.7h-2.4c-.3,0-.6.3-.6.6v17.4c0,7.2,5.8,13,13,13h73.9c7.2,0,13-5.8,13-13V15.3c0-.3-.3-.6-.6-.6h-3.4"/>
+    <g class="st6">
+      <path class="st43" d="M13.3,16.5v6.5h-2.6v-6.5h-2.2v-2.1h7l.4,2.1h-2.5Z"/>
+      <path class="st43" d="M22.2,23v-3.3h-2.4v3.3h-2.6v-8.6h2.6v3.1h2.4v-3.1h2.6v8.6h-2.6Z"/>
+      <path class="st43" d="M26.7,23v-8.6h5.7v2h-3.2v1.2h2.4l.3,2.1h-2.7v1.4h3.3v2h-5.8Z"/>
+    </g>
+    <polygon class="st44" points="54.6 22.9 54.6 7.1 65 7.1 65 10.7 59.2 10.7 59.2 12.9 63.6 12.9 64.2 16.7 59.2 16.7 59.2 19.2 65.2 19.2 65.2 22.9 54.6 22.9"/>
+    <path class="st47" d="M71.9,22.9h-4.7s4.8-8,4.8-7.9l-4.4-7.8h5c0,0,2.4,4.2,2.4,4.2l2.3-4.3h4.7l-4.4,7.4,4.8,8.5h-5c0,0-2.7-4.9-2.7-4.9,0,0-2.6,4.8-2.6,4.8"/>
+    <polygon class="st46" points="92.6 11 92.6 22.9 87.9 22.9 87.9 11 83.8 11 83.8 7.1 96.5 7.1 97.1 11 92.6 11"/>
+    <path class="st45" d="M52.4,7.1c0,0-.1,0-.2,0h-3.7c-.1,0-.2,0-.2.2h0c0,.4,0,1-.3,1.9v.7c-.1,0-.2.4-.2.4l-1.4,6.7-6.3-14.6c0,0-.1-.1-.2-.1,0,0-.2,0-.2.2l-3.7,17.5v.2c-.5,1.8-.5,2.2-.7,2.7,0,0,0,.1,0,.2,0,0,.1,0,.2,0h3.7c.1,0,.2,0,.2-.2,0-.5,0-.9.3-1.9l.2-1.1,1.2-6.3c.9,2.2,3.5,9.1,3.6,9.3,0,0,.1.1.2.1h3.9c0,0,.2,0,.2-.2.3-1.6,2.8-13,2.8-13,.4-1.8.4-2.1.7-2.6,0,0,0-.1,0-.2"/>
+    <g class="st7">
+      <path class="st43" d="M55,40.9v-9.8s-3.1,1.3-3.1,1.3l-.6-4.2,4.3-2.1h4.5s0,14.9,0,14.9h-5.1Z"/>
+      <path class="st43" d="M86.7,41.2c-4.2,0-7.2-2.9-7.2-7.7,0-4.7,3-7.7,7.2-7.7,4.1,0,7.2,2.9,7.2,7.7,0,4.7-3,7.7-7.2,7.7ZM86.7,29.9c-1.2,0-2.2.9-2.2,3.6,0,2.7,1,3.6,2.2,3.6,1.2,0,2.1-.9,2.1-3.6,0-2.7-1-3.6-2.1-3.6Z"/>
+      <path class="st43" d="M69.8,41.2c-4.2,0-7.2-2.9-7.2-7.7,0-4.7,3-7.7,7.2-7.7,4.1,0,7.2,2.9,7.2,7.7,0,4.7-3,7.7-7.2,7.7ZM69.8,29.9c-1.2,0-2.2.9-2.2,3.6,0,2.7,1,3.6,2.2,3.6,1.2,0,2.1-.9,2.1-3.6,0-2.7-1-3.6-2.1-3.6Z"/>
+    </g>
+    <polygon class="st3" points="14.5 33.5 8.5 27.8 15 27.8 20.9 33.5 15 39.1 8.5 39.1 14.5 33.5"/>
+    <polygon class="st2" points="23.2 33.5 17.2 27.8 23.7 27.8 29.6 33.5 23.7 39.1 17.2 39.1 23.2 33.5"/>
+    <polygon class="st4" points="31.9 33.5 25.9 27.8 32.4 27.8 38.3 33.5 32.4 39.1 26 39.1 31.9 33.5"/>
+    <polygon class="st5" points="40.6 33.5 34.7 27.8 41.1 27.8 47.1 33.5 41.1 39.1 34.7 39.1 40.6 33.5"/>
+  </g>
+  <g class="st70">
+    <g>
+      <path class="st22" d="M178.1,25.1c0-5.8-4.9-10.5-10.7-10.5s-10.7,4.8-10.7,10.7,0,1.2,0,1.6h0c1.2,8.3,10.6,18.2,10.6,18.2,0,0,8.6-7.9,10.4-17.2.2-.8.3-2.8.3-2.8Z"/>
+      <path class="st10" d="M167.4,45c-.4-.4-2.5-2.8-4.8-5.9-2.3-3.2-5.1-7.9-5.7-12.1h0c0-.4,0-1.5,0-1.7,0-5.9,4.8-10.7,10.7-10.7s5.5,1.1,7.5,3c2,2,3.1,4.6,3.2,7.4,0,.1,0,2-.3,2.8-.9,4.8-3.7,9.2-5.9,12-2.1,2.8-4.1,4.7-4.5,5.1h0Z"/>
+      <circle class="st9" cx="167.4" cy="24.9" r="8.1"/>
+      <path class="st11" d="M167.4,32.9c-4.4,0-8-3.6-8-8s3.6-8,8-8,8,3.6,8,8-3.6,8-8,8Z"/>
+      <path class="st67" d="M167.4,32.4c-4.1,0-7.5-3.4-7.5-7.5s3.4-7.5,7.5-7.5,7.5,3.4,7.5,7.5-3.4,7.5-7.5,7.5Z"/>
+      <g>
+        <path class="st39" d="M167.4,32.3c-4.1,0-7.4-3.3-7.4-7.4s3.3-7.4,7.4-7.4,7.4,3.3,7.4,7.4-3.3,7.4-7.4,7.4Z"/>
+        <path class="st52" d="M167.4,32.3c-4.1,0-7.4-3.3-7.4-7.4s3.3-7.4,7.4-7.4,7.4,3.3,7.4,7.4-3.3,7.4-7.4,7.4Z"/>
+        <path class="st35" d="M167.4,32.3c-4,0-7.3-3.3-7.3-7.3s3.3-7.3,7.3-7.3,7.3,3.3,7.3,7.3-3.3,7.3-7.3,7.3Z"/>
+        <path class="st64" d="M167.4,32.2c-4,0-7.3-3.3-7.3-7.3s3.3-7.3,7.3-7.3,7.3,3.3,7.3,7.3-3.3,7.3-7.3,7.3Z"/>
+        <path class="st53" d="M167.4,32.2c-4,0-7.3-3.3-7.3-7.3s3.3-7.3,7.3-7.3,7.3,3.3,7.3,7.3-3.3,7.3-7.3,7.3Z"/>
+        <path class="st19" d="M167.4,32.2c-4,0-7.3-3.2-7.3-7.3s3.2-7.3,7.3-7.3,7.3,3.2,7.3,7.3-3.2,7.3-7.3,7.3Z"/>
+        <path class="st30" d="M167.4,32.1c-4,0-7.2-3.2-7.2-7.2s3.2-7.2,7.2-7.2,7.2,3.2,7.2,7.2-3.2,7.2-7.2,7.2Z"/>
+        <path class="st21" d="M167.4,32.1c-4,0-7.2-3.2-7.2-7.2s3.2-7.2,7.2-7.2,7.2,3.2,7.2,7.2-3.2,7.2-7.2,7.2Z"/>
+        <path class="st37" d="M167.4,32.1c-4,0-7.2-3.2-7.2-7.2s3.2-7.2,7.2-7.2,7.2,3.2,7.2,7.2-3.2,7.2-7.2,7.2Z"/>
+        <path class="st59" d="M167.4,32.1c-4,0-7.2-3.2-7.2-7.2s3.2-7.2,7.2-7.2,7.2,3.2,7.2,7.2-3.2,7.2-7.2,7.2Z"/>
+        <path class="st34" d="M167.4,32.1c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1,7.1,3.2,7.1,7.1-3.2,7.1-7.1,7.1Z"/>
+        <path class="st33" d="M167.4,32c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1,7.1,3.2,7.1,7.1-3.2,7.1-7.1,7.1Z"/>
+        <path class="st72" d="M167.4,32c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1,7.1,3.2,7.1,7.1-3.2,7.1-7.1,7.1Z"/>
+        <path class="st57" d="M167.4,32c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1,7.1,3.2,7.1,7.1-3.2,7.1-7.1,7.1Z"/>
+        <path class="st27" d="M167.4,31.9c-3.9,0-7-3.2-7-7s3.2-7,7-7,7,3.2,7,7-3.2,7-7,7Z"/>
+        <path class="st54" d="M167.4,31.9c-3.9,0-7-3.1-7-7s3.1-7,7-7,7,3.1,7,7-3.2,7-7,7Z"/>
+        <path class="st42" d="M167.4,31.9c-3.9,0-7-3.1-7-7s3.1-7,7-7,7,3.1,7,7-3.1,7-7,7Z"/>
+        <path class="st16" d="M167.4,31.9c-3.8,0-7-3.1-7-7s3.1-7,7-7,7,3.1,7,7-3.1,7-7,7Z"/>
+        <path class="st55" d="M167.4,31.8c-3.8,0-6.9-3.1-6.9-6.9s3.1-6.9,6.9-6.9,6.9,3.1,6.9,6.9-3.1,6.9-6.9,6.9Z"/>
+        <path class="st25" d="M167.4,31.8c-3.8,0-6.9-3.1-6.9-6.9s3.1-6.9,6.9-6.9,6.9,3.1,6.9,6.9-3.1,6.9-6.9,6.9Z"/>
+        <path class="st60" d="M167.4,31.8c-3.8,0-6.9-3.1-6.9-6.9s3.1-6.9,6.9-6.9,6.9,3.1,6.9,6.9-3.1,6.9-6.9,6.9Z"/>
+        <path class="st48" d="M167.4,31.8c-3.8,0-6.9-3.1-6.9-6.9s3.1-6.9,6.9-6.9,6.9,3.1,6.9,6.9-3.1,6.9-6.9,6.9Z"/>
+      </g>
+      <path class="st18" d="M167.4,15.5c5.5,0,9.9,4.4,10.1,9.8v-.3c0-5.6-4.5-10.1-10.1-10.1s-10.1,4.5-10.1,10.1v.3c.2-5.4,4.6-9.8,10.1-9.8Z"/>
+      <path class="st43" d="M167.4,31.8c3.9,0,7-3.1,7.1-6.9h0c0,4-3.2,7.2-7.1,7.2s-7.1-3.2-7.1-7.1h0c0,3.7,3.2,6.8,7.1,6.8Z"/>
+      <path class="st43" d="M171.9,21.7c0,2-2,3.7-4.5,3.7s-4.5-1.6-4.5-3.7,2-3.7,4.5-3.7,4.5,1.7,4.5,3.7Z"/>
+      <path class="st71" d="M167.3,35.5c-3.2,0-6.2-1.3-8.2-3.5,1.1,2.5,2.6,5,4,6.9,2,2.8,3.9,4.9,4.3,5.3.3-.3,2.1-2,4-4.5,1.5-2,3.3-4.7,4.4-7.9-2.1,2.2-5.1,3.7-8.4,3.7h-.1Z"/>
+    </g>
+    <g>
+      <g>
+        <path class="st68" d="M167,27.5v-6.9h1.8c.4,0,.7.3.7.7v3c0,.4-.3.7-.7.7h-1v2.5h-.8ZM167.7,24.3h.9s0,0,0-.1v-2.8s0-.1,0-.1h-.9v3.1h0Z"/>
+        <path class="st68" d="M170.7,27.5c-.4,0-.7-.3-.7-.7v-5.5c0-.4.3-.7.7-.7h1.7v.7h-1.6s0,0,0,.1v5.3s0,.1,0,.1h.7s0,0,0-.1v-3.1h.7c0-.1,0,3.1,0,3.1,0,.4-.3.7-.7.7h-1,.1Z"/>
+        <path class="st68" d="M164.9,27.5c-.2,0-.3,0-.5-.1h0c0,0-.3.1-.5.1h-.7c-.4,0-.8-.4-.8-.8v-6.1h.7v6.1s0,.1,0,.1h.7s0,0,0-.1v-6.1h.7v6.1s0,.1,0,.1h.7s0,0,0-.1v-6.1h.7v6.1c0,.4-.4.8-.8.8h-.8.2Z"/>
+      </g>
+      <g class="st31">
+        <path class="st68" d="M162.3,29.4l.7-.7s.2-.2.2-.3,0-.2-.2-.2-.2,0-.2.2h-.4c0-.4.3-.6.6-.6s.6.2.6.5,0,.3-.2.5l-.2.2h.5v.3h-1.4Z"/>
+        <path class="st68" d="M165.1,28.7c0-.5.4-.8.8-.8s.8.3.8.8-.4.8-.8.8-.8-.3-.8-.8ZM166.3,28.7c0-.2,0-.4-.4-.4s-.4.2-.4.4,0,.4.4.4.4-.2.4-.4Z"/>
+        <path class="st68" d="M168.2,29.4l.7-.7s.2-.2.2-.3,0-.2-.2-.2-.2,0-.2.2h-.4c0-.4.3-.6.6-.6s.6.2.6.5,0,.3-.2.5l-.2.2h.5v.3h-1.4Z"/>
+        <path class="st68" d="M172.2,29.5h-.4v-.3h-.8v-.3l.7-.9h.4v.9h.2v.3h-.2v.3h.1ZM171.8,28.4l-.4.5h.4v-.5Z"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="st14" d="M121.3,25.1c-.1-5.9-4.9-10.6-10.8-10.6s-10.8,4.8-10.8,10.8,0,1.2.1,1.6c0,0,0,0,0,0,0,0,0,0,0,0,1.2,8.2,10.6,18.2,10.6,18.2,0,0,8.6-7.9,10.4-17.2.2-.8.3-2.8.3-2.9Z"/>
+    <path class="st65" d="M110.5,45c-.4-.4-2.5-2.8-4.8-5.9-2.3-3.2-5.1-7.9-5.8-12.1h0c0-.4-.1-1.5-.1-1.7,0-5.9,4.8-10.7,10.7-10.7s5.5,1.1,7.5,3.1c2,2,3.1,4.6,3.2,7.4,0,.1-.1,2-.3,2.8-.9,4.8-3.7,9.2-5.9,12-2.1,2.8-4.1,4.7-4.5,5.1Z"/>
+    <circle class="st12" cx="110.5" cy="24.9" r="8.1" transform="translate(65.1 128.7) rotate(-79.1)"/>
+    <circle class="st13" cx="110.5" cy="24.9" r="8" transform="translate(39.2 113) rotate(-63.7)"/>
+    <circle class="st61" cx="110.5" cy="24.9" r="7.5" transform="translate(75.3 132.6) rotate(-84.6)"/>
+    <g>
+      <circle class="st69" cx="110.5" cy="24.9" r="7.4" transform="translate(54.3 123.3) rotate(-72.9)"/>
+      <circle class="st40" cx="110.5" cy="24.9" r="7.4" transform="translate(50.3 120.9) rotate(-70.6)"/>
+      <circle class="st51" cx="110.5" cy="24.9" r="7.4" transform="translate(46.1 118.1) rotate(-68.1)"/>
+      <circle class="st23" cx="110.5" cy="24.9" r="7.3" transform="translate(41.7 114.9) rotate(-65.3)"/>
+      <circle class="st26" cx="110.5" cy="24.9" r="7.3" transform="translate(37 111.1) rotate(-62.3)"/>
+      <circle class="st24" cx="110.5" cy="24.9" r="7.3" transform="translate(32.4 107) rotate(-59.1)"/>
+      <circle class="st29" cx="110.5" cy="24.9" r="7.3" transform="translate(27.9 102.4) rotate(-55.8)"/>
+      <circle class="st49" cx="110.5" cy="24.9" r="7.2" transform="translate(23.6 97.5) rotate(-52.6)"/>
+      <circle class="st32" cx="110.5" cy="24.9" r="7.2" transform="translate(19.6 92.6) rotate(-49.4)"/>
+      <circle class="st20" cx="110.5" cy="24.9" r="7.2" transform="translate(16.2 87.6) rotate(-46.3)"/>
+      <circle class="st38" cx="110.5" cy="24.9" r="7.2" transform="translate(13.2 82.9) rotate(-43.5)"/>
+      <circle class="st66" cx="110.5" cy="24.9" r="7.1" transform="translate(10.6 78.3) rotate(-40.8)"/>
+      <circle class="st56" cx="110.5" cy="24.9" r="7.1" transform="translate(8.5 74.1) rotate(-38.5)"/>
+      <circle class="st17" cx="110.5" cy="24.9" r="7.1" transform="translate(6.7 70.3) rotate(-36.3)"/>
+      <circle class="st15" cx="110.5" cy="24.9" r="7.1" transform="translate(5.2 66.8) rotate(-34.4)"/>
+      <circle class="st62" cx="110.5" cy="24.9" r="7" transform="translate(4 63.6) rotate(-32.7)"/>
+      <circle class="st63" cx="110.5" cy="24.9" r="7" transform="translate(3 60.7) rotate(-31.1)"/>
+      <circle class="st41" cx="110.5" cy="24.9" r="7" transform="translate(2.2 58.2) rotate(-29.8)"/>
+      <circle class="st1" cx="110.5" cy="24.9" r="7" transform="translate(1.5 55.9) rotate(-28.6)"/>
+      <circle class="st73" cx="110.5" cy="24.9" r="6.9" transform="translate(1 53.8) rotate(-27.5)"/>
+      <circle class="st58" cx="110.5" cy="24.9" r="6.9" transform="translate(.5 51.9) rotate(-26.5)"/>
+      <circle class="st0" cx="110.5" cy="24.9" r="6.9" transform="translate(0 50.2) rotate(-25.6)"/>
+    </g>
+    <path class="st36" d="M110.5,15.5c5.5,0,10,4.4,10.1,9.8,0,0,0-.2,0-.3,0-5.6-4.5-10.1-10.1-10.1s-10.1,4.5-10.1,10.1,0,.2,0,.3c.2-5.4,4.6-9.8,10.1-9.8Z"/>
+    <path class="st43" d="M110.5,31.8c3.9,0,7-3.1,7.1-7,0,0,0,0,0,.1,0,3.9-3.2,7.1-7.1,7.1s-7.1-3.2-7.1-7.1,0,0,0-.1c0,3.9,3.2,7,7.1,7Z"/>
+    <path class="st43" d="M116.1,24c0,3.2-2.5,5.8-5.6,5.8s-5.6-2.6-5.6-5.8,2.5-5.8,5.6-5.8,5.6,2.6,5.6,5.8Z"/>
+    <path class="st28" d="M110.4,35.5c-3.3,0-6.2-1.4-8.3-3.5,1.1,2.6,2.6,5,4,6.9,2,2.8,3.9,4.9,4.3,5.3.3-.3,2.1-2,4-4.5,1.5-2,3.3-4.8,4.5-7.9-2.1,2.3-5.1,3.7-8.4,3.7Z"/>
+    <g>
+      <g>
+        <path class="st50" d="M110.1,27.5v-7h1.8c.4,0,.7.3.7.7v3c0,.4-.3.7-.7.7h-1v2.5h-.7ZM110.8,24.4h.9c0,0,.1,0,.1-.1v-2.8c0,0,0-.1-.1-.1h-.9v3.1Z"/>
+        <path class="st50" d="M113.8,27.5c-.4,0-.7-.3-.7-.7v-5.5c0-.4.3-.7.7-.7h1.7v.7h-1.6c0,0-.1,0-.1.1v5.3c0,0,0,.1.1.1h.7c0,0,.1,0,.1-.1v-3h.7c0-.1,0,3.1,0,3.1,0,.4-.3.7-.7.7h-1Z"/>
+        <path class="st50" d="M108,27.5c-.2,0-.3,0-.5-.1h0s0,0,0,0c-.1,0-.3.1-.5.1h-.7c-.4,0-.8-.4-.8-.8v-6.2h.7v6.2c0,0,0,.1.1.1h.7c0,0,.1,0,.1-.1v-6.2h.7v6.2c0,0,0,.1.1.1h.7c0,0,.1,0,.1-.1v-6.2h.7v6.2c0,.4-.4.8-.8.8h-.7Z"/>
+      </g>
+      <g>
+        <path class="st50" d="M105.4,29.5l.7-.7c0,0,.2-.2.2-.3s0-.2-.2-.2-.2,0-.2.2h-.4c0-.4.3-.6.6-.6s.6.2.6.5-.1.3-.2.5l-.2.2h.5v.3h-1.2s0,0,0,0Z"/>
+        <path class="st50" d="M108.3,28.7c0-.5.4-.8.8-.8s.8.3.8.8-.4.8-.8.8-.8-.3-.8-.8ZM109.5,28.7c0-.2-.1-.4-.4-.4s-.4.2-.4.4.1.4.4.4.4-.2.4-.4Z"/>
+        <path class="st50" d="M111.5,29.5l.7-.7c0,0,.2-.2.2-.3s0-.2-.2-.2-.2,0-.2.2h-.4c0-.4.3-.6.6-.6s.6.2.6.5-.1.3-.2.5l-.2.2h.5v.3h-1.2s0,0,0,0Z"/>
+        <path class="st50" d="M114.3,29.2l.3-.2c0,0,.1.2.3.2s.2,0,.2-.2-.1-.2-.3-.2-.3,0-.4.1c0,0,0,0,0,0v-.9h1v.3h-.6v.2s0,0,.2,0c.4,0,.6.2.6.5s-.3.5-.6.5-.5-.1-.6-.3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
