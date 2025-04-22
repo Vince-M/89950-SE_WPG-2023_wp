@@ -6,7 +6,7 @@
   font-size: rem(20);
   font-weight: 500;
   line-height: rem(22);
-  padding: rem(9) rem(24);
+  // padding: rem(9) rem(24);
   border-radius: rem(5);
   text-transform: uppercase;
   text-decoration: none;
@@ -45,6 +45,7 @@
     // background-color: var(--yellow);
     border: 1px solid var(--white);
     color: var(--darkGreen);
+    padding: .5625rem 1.5rem;
   }
 
   &__moreInfo a:hover {

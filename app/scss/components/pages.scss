@@ -163,6 +163,7 @@ a.track_link:hover {
 
 .concert-name {
   padding: 0 rem(10);
+  max-width: rem(350);
 }
 
 .concert-date {
@@ -199,6 +200,7 @@ sup {
   &__banner {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
