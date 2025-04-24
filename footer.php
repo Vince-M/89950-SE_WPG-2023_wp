@@ -10,39 +10,7 @@
         </div>
 
         <div class="footer__menu">
-          <div class="footer__nav--item footer__nav--conference">
-            <h4 class="footer__menu--head">Programs</h4>
-              <?php
-                wp_nav_menu( array(
-                  'theme_location'  =>  'wpg-footer-programs',
-                  'depth'           =>  3,
-                  'container'       =>  false
-                ))
-              ?>
 
-          </div>
-
-          <div class="footer__nav--item footer__nav--visit">
-            <h4 class="footer__menu--head">Plan your Visit</h4>
-              <?php
-                wp_nav_menu( array(
-                  'theme_location'  =>  'wpg-footer-visit',
-                  'depth'           =>  2,
-                  'container'       =>  false
-                ))
-              ?>
-          </div>
-
-          <div class="footer__nav--item footer__nav--tradeshow">
-            <h4 class="footer__menu--head">Trade Show</h4>
-              <?php
-                wp_nav_menu( array(
-                  'theme_location'  =>  'wpg-footer-tradeshow',
-                  'depth'           =>  4,
-                  'container'       =>  false
-                ))
-              ?>
-          </div>
 
             <!-- contact button -->
             <div class="btn btn__contact btn__contact--footer nav__link">

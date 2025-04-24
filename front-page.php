@@ -7,24 +7,14 @@
       <!-- HERO
       =================================================== -->
       <div class="hero__pages" role="banner" data-type="background" data-speed="2">
-      <div class="hero__image" style="background: url(<?php the_field( 'index_hero' ); ?>) no-repeat;background-position: center; background-size: cover; left: 50%; padding: 0; position: relative; -webkit-transform: translateX(-50%); transform: translateX(-50%);margin-top: 0; margin-bottom: 0px; height: 450px">
+        <div class="hero__image" style="background: url(<?php the_field( 'index_hero' ); ?>) no-repeat;background-position: center; background-size: cover; left: 50%; padding: 0; position: relative; -webkit-transform: translateX(-50%); transform: translateX(-50%);margin-top: 0; margin-bottom: 0px; height: 450px">
         </div>
-        <div class="wrapper hero__index">
-          <div class="hero__indexContent">
-            <div class="hero__content">
-              <div class="hero__branding">
-                <img src="<?php echo get_theme_file_uri() ?>/img/hero_branding_2025.svg" alt="WPG logo" class="hero-brand">
-              </div> <!-- hero__branding -->
-              <div class="hero__info">
-                <p class="hero__date"><?php echo esc_html( get_field('conference_dates') ); ?></p>
-                <p class="hero__location">
-                  <span class="hero__hotel"><?php echo esc_html( get_field('hotel_name') ); ?></span><br>
-                  <span class="hero__place"><?php echo esc_html( get_field('hotel_name_cont') ); ?><br>
-                  <?php echo esc_html( get_field('city_province') ); ?></span></p>
-              </div> <!-- hero__info -->
-            </div> <!-- hero__content -->
-          </div> <!-- hero__index -->
-        </div> <!-- wrapper -->
+
+      <!-- CONFERENCE INFO
+      =================================================== -->
+      <?php get_template_part( 'template-parts/conference-info' ); ?>
+      <!-- ============================================== -->
+
       </div>
       <!-- ============================================== -->
 

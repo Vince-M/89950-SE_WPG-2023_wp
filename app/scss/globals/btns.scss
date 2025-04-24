@@ -20,6 +20,7 @@
     color: var(--white);;
     // margin-left: rem(20);
     text-decoration: none;
+    padding: 12px 24px;
 
     @include breakpoint-down(small) {
       margin-left: 0;
