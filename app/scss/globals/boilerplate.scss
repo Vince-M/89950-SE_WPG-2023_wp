@@ -89,3 +89,17 @@ hr {
   background-color: var(--lightBlue);
   color: var(--white);
 }
+
+.calendar {
+
+  &__block {
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__dates {
+    display: inline-block;
+  }
+}

@@ -109,12 +109,6 @@
                       <a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
                   <?php endif; ?>
 
-                  <!-- <a
-                    class="sponsor-url"
-                    href="https://dufresne.ca/"
-                    target="_blank"
-                    >dufresne.ca</a
-                  > -->
                 </div>
               </div>
               <!-- sponsors__conference--half-width -->
@@ -184,49 +178,8 @@
                   >
                 </div>
               </div>
-              <!-- sponsors__conference--half-width -->
-              <div class="sponsors__conference--half-width">
-                <?php 
-                  $image = get_field('sponsor_pg');
-                  if( !empty( $image ) ): ?>
-                      <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-                <?php endif; ?>
 
-                <div class="sponsors__conference--text">
-                  <h2 class="sponsor-head">
-                    <?php the_field('pg_heading'); ?>
-                  </h2>
-
-                  <a
-                    class="sponsor-url"
-                    href="https://pg.ca/en-ca/"
-                    target="_blank"
-                    >pg.ca</a
-                  >
-                </div>
-              </div>
-              <!-- sponsors__conference--half-width -->
-              <div class="sponsors__conference--half-width">
-                <?php 
-                  $image = get_field('sponsor_unilever');
-                  if( !empty( $image ) ): ?>
-                      <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
-                <?php endif; ?>
-
-                <div class="sponsors__conference--text">
-                  <h2 class="sponsor-head">
-                    <?php the_field('unilever_heading'); ?>
-                  </h2>
-
-                  <a
-                    class="sponsor-url"
-                    href="https://www.unilever.ca/"
-                    target="_blank"
-                    >unilever.ca</a
-                  >
-                </div>
-              </div>
-              <!-- sponsors__conference--half-width -->
+             
             </div>
             <!-- sponsors__conference--furtrader -->
 

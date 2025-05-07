@@ -87,7 +87,7 @@
           </div>
           <div class="concert-date">
             <!-- <img src="img/concert_date.svg" alt="Concert Date" width="240"> -->
-                <h2>May 29<sup>th</sup>, 2025</h2>
+                <h2>May 29<sup>th</sup>, 2025!!!</h2>
                 <h3>Victoria Inn</h3>
                 <h3>Winnipeg, MB</h3>
           </div>
