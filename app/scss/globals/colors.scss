@@ -1,5 +1,6 @@
 :root {
   --darkGreen: hsl(167, 97%, 15%);// rgb(1, 77, 60), #014D3C
+  --darkBackground: hsl(217, 54%, 16%);// rgb(19, 36, 64), #132440
   --nwcGreen: hsl(166, 100%, 20%); // rgb(0,102,79), #00664f
   --lightGreen: hsl(109, 61%, 43%); // rgb(67, 176, 42), #43b02a
   --northernBlue: hsl(208, 100%, 33.5%); // rgb(0, 92, 171), #005cab
@@ -16,11 +17,11 @@
   --black65: rgba(40, 38, 34, 0.65);
   --lightGrey: hsl(210, 1%, 61%) ;// rgb(154, 155,156), #9a9b9c;
 
-  --zone1: hsl(199, 75%, 54%); //  rgb(49,170,225), Beaufort Sea  #31AAE1
-  --zone2: hsl(359, 84%, 53%); // rgb(236,34,39), Parry Channel  #EC2227
-  --zone3: hsl(127, 51%, 47%); // rgb(59,181,74), Baffin Bay  #3BB54A
-  --zone4: hsl(297, 46%, 38%); // rgb(135,52,140), Foxe Basin  #87348C
-  --zone5: hsl(336, 85%, 55%); // rgb(238,45,122), Davis Straight  #EE2D7A
-  --zone6: hsl(33, 93%, 55%); // rgb(247,149,32), Labrador Sea  #F79520
-  --zone7: hsl(234, 47%, 31%); // rgb(42,50,117), Hudson Bay  #2A3275
+  --zone1: hsl(197, 100%, 47%); // rgb(0, 173, 240), #00adf0
+  --zone2: hsl(358, 85%, 52%); // rgb(237, 28, 36), #ed1c24
+  --zone3: hsl(129, 53%, 46%); // rgb(56, 181, 74), #38b54a
+  --zone4: hsl(297, 47%, 37%); // rgb(135, 51, 140), #87338c
+  --zone5: hsl(335, 84%, 55%); // rgb(237, 41, 122), #ed297a
+  --zone6: hsl(33, 93%, 54%); // rgb(247, 148, 28), #f7941c
+  --zone7: hsl(226, 68%, 30%); // rgb(25, 50, 130), #193282
 }

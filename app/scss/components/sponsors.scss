@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--darkGreen);
+    background-color: var(--darkBackground);
     padding: rem(20) rem(10);
     color: var(--white);
     margin-bottom: rem(20);
@@ -150,12 +150,12 @@
     &--logos {
       display: flex;
       justify-content: center;
-      flex: 15%;
+      flex: 20%;
       filter: grayscale(0%);
 
-      @include breakpoint-down(medium) {
-        flex: 20%;
-      }
+      // @include breakpoint-down(medium) {
+      //   flex: 20%;
+      // }
 
       @include breakpoint-down(small) {
         flex: 45%;
@@ -171,11 +171,14 @@
   &__furTrader {
     flex-wrap: wrap;
     gap: rem(40);
+    margin-bottom: rem(80);
+    padding-bottom: rem(40);
+    border-bottom: 1px solid var(--darkGreen);
 
     @include breakpoint-down(medium) {
       // margin-top: rem(20);
-      margin-bottom: rem(40);
-      border-bottom: 1px solid var(--darkGreen);
+      // margin-bottom: rem(40);
+      // border-bottom: 1px solid var(--darkGreen);
     }
 
     &--logos {
