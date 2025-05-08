@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+
   &__row {
     display: flex;
     flex-direction: row;
@@ -54,7 +55,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  // padding: rem(10);
+  padding: rem(5);
   text-align: center;
   line-height: 1.25;
   width: 23%;
@@ -144,16 +145,16 @@
     margin-bottom: rem(10);
   }
 
-  &__zone1,
-  &__zone2,
-  &__zone3,
-  &__zone4 {
-    padding: 0 rem(10);
-    @include breakpoint-down(small) {
-      width: 48%;
-      margin-bottom: 4%;
-    }
-  }
+  // &__zone1,
+  // &__zone2,
+  // &__zone3,
+  // &__zone4 {
+  //   padding: 0 rem(10);
+  //   @include breakpoint-down(small) {
+  //     width: 48%;
+  //     margin-bottom: 4%;
+  //   }
+  // }
 
   &__gm {
     // border: rem(5) solid var(--ncrBlue);
@@ -174,11 +175,21 @@
   }
 
   &__name {
-    font-family: var(--font-display);
-    color: var(--white);
-    font-size: rem(21);
-    // color: var(--nwcGreen);
-    margin-bottom: 0;
+
+
+    &--blk {
+      font-family: var(--font-display);
+      font-size: rem(21);
+      margin-bottom: 0;
+      color: var(--blk);
+    }
+
+    &--wht {
+      font-family: var(--font-display);
+      font-size: rem(21);
+      margin-bottom: 0;
+      color: var(--white);
+    }
 
     @include breakpoint-down(small) {
       font-size: rem(17);
@@ -196,8 +207,16 @@
   }
 
   &__booth {
-    color: var(--white);
+
     font-weight: 500;
+
+    &--wht {
+      color: var(--white);
+    }
+
+    &--blk {
+      color: var(--blk);
+    }
 
     @include breakpoint-down(small) {
       font-size: rem(15);

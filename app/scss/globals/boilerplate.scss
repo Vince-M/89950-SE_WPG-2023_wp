@@ -94,9 +94,17 @@ hr {
 
   &__block {
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  &__pharmacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: rem(40);
   }
 
   &__dates {

@@ -61,7 +61,7 @@
 
           <div class="vendors">
 
-            <!-- ZONE 1 / BEAUFORT SEA -->
+            <!-- ZONE 1 / -->
             <div class="vendors__col">
 
               <?php    
@@ -71,7 +71,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone1">BEAUFORT SEA</h2>
+              <h2 class="vendor__header vendor__header--zone1">ZONE 1</h2>
               <div class="vendors__zones">
                 
 
@@ -79,8 +79,8 @@
 
 
                   <div class="vendor vendor__zone1">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--blk"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--blk"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -90,7 +90,7 @@
               
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 2 / PARRY CHANNEL -->
+            <!-- ZONE 2 / -->
             <div class="vendors__col">
 
               <?php    
@@ -100,7 +100,7 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone2">PARRY CHANNEL</h2>
+              <h2 class="vendor__header vendor__header--zone2">ZONE 2</h2>
               <div class="vendors__zones">
                 
 
@@ -108,8 +108,8 @@
 
 
                   <div class="vendor vendor__zone2">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--blk"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--blk"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -119,7 +119,7 @@
               
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 3 / BAFFIN BAY -->
+            <!-- ZONE 3 -->
             <div class="vendors__col">
 
               <?php    
@@ -129,15 +129,15 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone3">BAFFIN BAY</h2>
+              <h2 class="vendor__header vendor__header--zone3">ZONE 3</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone3">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--blk"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--blk"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -147,7 +147,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 4 / Foxe Basin -->
+            <!-- ZONE 4 / -->
             <div class="vendors__col">
 
               <?php    
@@ -157,15 +157,15 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone4">Foxe Basin</h2>
+              <h2 class="vendor__header vendor__header--zone4">ZONE 4</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone4">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--wht"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--wht"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -175,7 +175,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 5 / Davis Straight -->
+            <!-- ZONE 5 / -->
             <div class="vendors__col">
 
               <?php    
@@ -185,15 +185,15 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone5">Davis Straight</h2>
+              <h2 class="vendor__header vendor__header--zone5">ZONE 5</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone5">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--blk"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--blk"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -203,7 +203,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 6 / Labrador Sea -->
+            <!-- ZONE 6 / -->
             <div class="vendors__col">
 
               <?php    
@@ -213,15 +213,15 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone6">Labrador Sea</h2>
+              <h2 class="vendor__header vendor__header--zone6">ZONE 6</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone6">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--blk"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--blk"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
@@ -231,7 +231,7 @@
 
             </div> <!-- vendors__col -->
 
-            <!-- ZONE 7 / Hudson Bay -->
+            <!-- ZONE 7 / -->
             <div class="vendors__col">
 
               <?php    
@@ -241,15 +241,15 @@
                   'paged'           =>  $paged,
                 ));
               ?>
-              <h2 class="vendor__header vendor__header--zone7">Hudson Bay</h2>
+              <h2 class="vendor__header vendor__header--zone7">ZONE 7</h2>
               <div class="vendors__zones">
                 
                 <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
 
 
                   <div class="vendor vendor__zone7">
-                    <p class="vendor__booth"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
-                    <h4 class="vendor__name"><?php the_field( 'vendor_name' ); ?></h4>
+                    <p class="vendor__booth--wht"><strong>Booth: </strong><?php the_field( 'vendor_booth_number' ); ?></p>
+                    <h4 class="vendor__name--wht"><?php the_field( 'vendor_name' ); ?></h4>
                   </div> <!-- vendor vendor__zone1 -->
 
                 <?php endwhile; ?>
