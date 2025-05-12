@@ -74,7 +74,22 @@
               <?php endif; ?>
 
               <div class="sponsors__conference--text">
-                <h2 class="sponsor-head">PepsiCo Foods (Frito Lay) & Arctic Beverages </h2>
+                <h2 class="sponsor-head">Arctic Beverages </h2>
+
+                <a class="sponsor-url" href="https://arcticbev.com/" target="_blank">arcticbev.com</a>
+              </div>
+            </div>
+
+            <!-- sponsors__conference--half-width PEPSI -->
+            <div class="sponsors__conference--half-width">
+              <?php 
+                $image = get_field('sponsor_pepsi');
+                if( !empty( $image ) ): ?>
+                    <img class="sponsor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+              <?php endif; ?>
+
+              <div class="sponsors__conference--text">
+                <h2 class="sponsor-head">PepsiCo Canada</h2>
 
                 <a class="sponsor-url" href="https://arcticbev.com/" target="_blank">arcticbev.com</a>
               </div>

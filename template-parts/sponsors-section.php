@@ -19,9 +19,16 @@
               <img src="<?php echo get_theme_file_uri() ?>/img/nestle_240x240.svg" alt="Nestle Canada" width="240">
             </a>
           </div>
+
           <div class="sponsors__norWester--logos">
             <a href="https://arcticbev.com/" target="_blank">
-              <img src="<?php echo get_theme_file_uri() ?>/img/arctic-pepsi_183x81.svg" alt="Arctic Ice, Pepsi Co. and Frito Lay" width="240">
+              <img src="<?php echo get_theme_file_uri() ?>/img/arctic_beverages_400x136.webp" alt="Arctic Beverages" width="240">
+            </a>
+          </div>
+
+          <div class="sponsors__norWester--logos">
+            <a href="https://arcticbev.com/" target="_blank">
+              <img src="<?php echo get_theme_file_uri() ?>/img/pepsi_300x115.webp" alt="Pepsi Co. Canada" width="240">
             </a>
           </div>
 
