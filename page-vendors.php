@@ -69,6 +69,8 @@
                   'post_type'       => 'zone1',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone1">ZONE 1</h2>
@@ -98,6 +100,8 @@
                   'post_type'       => 'zone2',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone2">ZONE 2</h2>
@@ -127,6 +131,8 @@
                   'post_type'       => 'zone3',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone3">ZONE 3</h2>
@@ -155,6 +161,8 @@
                   'post_type'       => 'zone4',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone4">ZONE 4</h2>
@@ -183,6 +191,8 @@
                   'post_type'       => 'zone5',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone5">ZONE 5</h2>
@@ -211,6 +221,8 @@
                   'post_type'       => 'zone6',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone6">ZONE 6</h2>
@@ -239,6 +251,8 @@
                   'post_type'       => 'zone7',
                   'posts_per_page'  =>  -1,
                   'paged'           =>  $paged,
+                  'order'           =>  'ASC',
+                  'orderby'         =>  'title',
                 ));
               ?>
               <h2 class="vendor__header vendor__header--zone7">ZONE 7</h2>
@@ -256,6 +270,40 @@
 
                 <?php wp_reset_postdata(); ?>
               </div> <!-- vendors__zones -->
+
+            </div> <!-- vendors__col -->
+
+            <!-- ZONE 8 / -->
+            <div class="vendors__col">
+
+                <?php    
+                  $conferenceVendors = new WP_Query ( array(       
+                    'post_type'       => 'zone8',
+                    'posts_per_page'  =>  -1,
+                    'paged'           =>  $paged,
+                  ));
+                ?>
+                <h2 class="vendor__header vendor__header--zone8">Private Label</h2>
+                <div class="vendors__zones">
+                  
+                  <?php while ( $conferenceVendors->have_posts() ) : $conferenceVendors->the_post(); ?>
+
+
+                    <div class="vendor vendor__zone8">
+                      <p class="vendor__booth--wht"><?php the_field( 'vendor_booth_number' ); ?></p>
+                      <h4 class="vendor__name--wht"><?php the_field( 'vendor_name' ); ?></h4>
+                      <?php 
+                        $image = get_field('vendor_brand');
+                        if( !empty( $image ) ): ?>
+                            <img class="vendor-logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" title="<?php echo esc_attr($image['title']); ?>" />
+                      <?php endif; ?>
+
+                    </div> <!-- vendor vendor__zone1 -->
+
+                  <?php endwhile; ?>
+
+                  <?php wp_reset_postdata(); ?>
+                </div> <!-- vendors__zones -->
 
             </div> <!-- vendors__col -->
 
